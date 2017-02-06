@@ -1,5 +1,5 @@
 @import url(1.css);
-p,h1,h2,h3,h4,h5,h6,pre,input,dd,ul,dt,dl,ol,figure,body,input,article{
+p,h1,h2,h3,h4,h5,h6,pre,dd,ul,dt,dl,ol,figure,body,input,article{
     margin: 0;padding: 0;list-style: none;border: none;}
 img{border: none;display: block;margin: 0;padding: 0;}
 input,a{text-decoration: none;border: none;}
