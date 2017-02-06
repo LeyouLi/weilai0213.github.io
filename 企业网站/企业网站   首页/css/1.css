@@ -1,0 +1,17 @@
+html{ font-size: 100px}
+/*@media screen and (min-width: 320px){
+ 	html{ font-size: 42.667px}
+ 	}
+@media screen and (min-width: 360px){
+ 	html{ font-size: 48px}
+ 	}
+*/
+@media screen and (min-width:750px){
+ 	html{font-size: 46.875px；}
+ 	}
+@media screen and (min-width:1200px){
+    html{font-size: 75px;}
+    }
+@media screen and (min-width:1366px){
+    html{font-size: 85.375px;}
+    }
