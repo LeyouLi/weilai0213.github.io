@@ -167,6 +167,7 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .flagship{font-size: 12px}
 .content-fen{width: 1231px;height:677px;margin: 0 auto;display: flex;justify-content: space-between;flex-wrap: wrap;margin-bottom: 10px }
 .dianpu{width: 615px;height: 338px;background: #fff;padding: 9px}
+.dianpu:hover{outline:0.01rem solid #C40000;}
 .dianpu-t{width: 590px;height: 44px}
 .hanban{width: 106px;height: 44px;float: left;background: url(../images/shangpu.jpg) no-repeat;background-size: contain}
 .dianpu-w{width: 153px;height: 44px;float: left}
@@ -188,6 +189,7 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .xihuan3{width: 30px;height: 1px;background: #979797;margin-left:8px;float: right;margin-top: 8px}
 .qiudong{width: 1231px;height:319px;margin: 0 auto;display: flex;justify-content: space-between;margin-bottom: 1px }
 .ertong{width: 239px;height: 319px;background:#fff;padding: 2px}
+.ertong:hover{outline:0.01rem solid #C40000;}
 .ertong-t{width: 235px;height: 230px;background: url(../images/yifu.jpg) no-repeat;background-size: contain}
 .qiuji1{color: #666;font-size: 12px;margin-top: 10px;margin-bottom: 10px}
 
