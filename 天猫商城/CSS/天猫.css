@@ -57,7 +57,7 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .sousuokuang{width: 625px;height: 40px;float:right;margin-top:38px;margin-right:279px }
 .jingdian{width: 495px;height: 40px;border: 2px solid #c40000;padding:8px;color: #666;float: left}
 #sousuo{width:130px;height: 40px;background:#c40000;color: #fff;float: left ;cursor: pointer;}
-.sousuo-b{width: 625px;height:15px;float:right;margin-top:5px;margin-right: 279px}
+.sousuo-b{width: 625px;height:15px;float:right;margin-top:5px;margin-right: 279px;line-height: 13px;}
 .yurong:nth-child(1){height: 15px;border-right:1px solid #ccc;padding-right:13px;padding-left:0 }
 .yurong:last-child{height: 15px;padding-left: 13px;border: none }
 .yurong{height: 15px;border-right:1px solid #ccc;padding:0 13px;float: left}
