@@ -1,0 +1,57 @@
+.cols-xs-1{
+    width:8.333333%;
+    height:auto;
+    float:left
+}
+.cols-xs-2{
+    width:16.66667%;
+    height:auto;
+    float:left
+}
+.cols-xs-3{
+    width:25%;
+    height:auto;
+    float:left
+}
+.cols-xs-4{
+    width:33.333333%;
+    height:auto;
+    float:left
+}
+.cols-xs-5{
+    width:41.66667%;
+    height:auto;
+    float:left
+}
+.cols-xs-6{
+    width:50%;
+    height:auto;
+    float:left
+}.cols-xs-7{
+     width:58.333333%;
+     height:auto;
+     float:left
+ }
+.cols-xs-8{
+    width:66.66667%;
+    height:auto;
+    float:left
+}
+.cols-xs-9{
+    width:75%;
+    height:auto;
+    float:left
+}.cols-xs-10{
+     width:83.333333%;
+     height:auto;
+     float:left
+ }.cols-xs-11{
+      width:91.66667%;
+      height:auto;
+      float:left
+  }
+.cols-xs-12{
+    width:100%;
+    height:auto;
+    float:left
+}

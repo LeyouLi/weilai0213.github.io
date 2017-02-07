@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+     .k1{width: 400px;height: 400px;border: 1px solid #000;
+     	margin:0 auto;
+     	transform-style:preserve-3d;
+        perspective:1000px;
+     }   	
+     .k2{
+     	width: 100px;height: 100px;
+     	transition:all 3s;margin: 150px;
+     	transform-style:preserve-3d;transform-origin:center center 50px;
+     	background: blue;
+     }
+     .k3{
+          width: 100px;height: 100px;
+          position: absolute;
+          background: #eee845;
+         transform-origin:top;
+          transform:rotateX(90deg);
+     }
+     .k4{
+     	width: 100px;height: 100px;
+          position: absolute;
+          background: #c2027f;
+          transform-origin:bottom;
+          transform:rotateX(-90deg);
+     }
+     .k5{
+     	width: 100px;height: 100px;background: #53b7d7;
+          position: absolute;
+          transform-origin:left;
+          transform:rotateY(-90deg);
+     }
+     .k6{
+     	width: 100px;height: 100px;background: #8ec31f;
+     	position: absolute;
+     	 transform-origin:right;
+          transform:rotateY(90deg);
+     
+     }
+     .k7{
+     	width: 100px;height: 100px;background: #cc0000;
+          transform:translateZ(100px);
+     }
+    .k1:hover .k2{
+    	
+    	transform:rotateY(360deg) rotateX(360deg);
+    }
+
+</style>
+<body>
+	<div class="k1">
+		<div class="k2">
+		  <div class="k3"></div>
+		  <div class="k4"></div>
+		  <div class="k5"></div>
+		  <div class="k6"></div>
+		  <div class="k7"></div>
+	    </div>
+	</div>
+</body>
+</html>
