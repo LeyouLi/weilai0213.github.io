@@ -72,13 +72,13 @@ body{font-size: 12px;font-family:"Helvetica Neue","Helvetica";background: #f2f2f
  }
  .mima{
     width: 1.52rem;height: 0.29rem;color: #666666;
-    float: left;background: url(../images/4.png) no-repeat 0.21rem 0.02rem;
-    background-size:contain;text-align: right;line-height: 0.29rem;
+    float: left;background: url(../images/4.png) no-repeat 0.21rem -0.01rem;
+    background-size:contain;text-align: right;line-height: 0.33rem;
  }
  .zhuce{
     width: 1.52rem;height: 0.29rem;color: #666666;margin-right: 0.24rem;
-    float: right;background: url(../images/5.png) no-repeat 0.21rem 0.02rem;
-    background-size:contain;text-align: right;line-height: 0.29rem;
+    float: right;background: url(../images/5.png) no-repeat 0.21rem -0.01rem;
+    background-size:contain;text-align: right;line-height: 0.33rem;
  }
   /*底部内容*/
  .lijidenglu{
