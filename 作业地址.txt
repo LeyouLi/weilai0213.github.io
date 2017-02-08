@@ -1,0 +1,23 @@
+1，天猫商城：https://weilai0213.github.io/天猫商城/天猫.html
+2，移动端
+     1>第一页--登录：https://weilai0213.github.io/第一页/登录/登录.html
+     2>第一页--注册：https://weilai0213.github.io/第一页/注册/注册.html
+     3>第一页--修改密码：https://weilai0213.github.io/第一页/修改密码/修改密码.html
+     4>第一页--找回密码：https://weilai0213.github.io/第一页/找回密码/找回密码.html
+
+     5>第二页--热门搜索：https://weilai0213.github.io/第二页/热门搜索/热门搜索.html
+     6>第二页--我的书架：https://weilai0213.github.io/第二页/我的书架/我的书架.html
+
+     7>第三页--书城精选：https://weilai0213.github.io/第三页/书城精选/书城精选.html
+     8>第三页--书城分类：https://weilai0213.github.io/第三页/书城分类/书城分类.html
+     9>第三页--书城榜单：https://weilai0213.github.io/第三页/书城榜单/书城榜单.html
+     10>第三页--我是书名：https://weilai0213.github.io/第三页/我是书名/我是书名.html
+     11>第三页--榜单详情页：https://weilai0213.github.io/第三页/榜单详情页/榜单详情页.html
+     12>第三页--书籍详情页：https://weilai0213.github.io/第三页/书籍详情页/书籍详情页.html
+3，企业网站
+     1>首页：https://weilai0213.github.io/企业网站/首页/首页.html
+     2>第二页：https://weilai0213.github.io/企业网站/第二页/第二页.html
+     3>第三页：https://weilai0213.github.io/企业网站/第三页/第三页.html
+     4>第四页：https://weilai0213.github.io/企业网站/第四页/第四页.html
+     5>第五页：https://weilai0213.github.io/企业网站/第五页/第五页.html
+     6>第六页：https://weilai0213.github.io/企业网站/第六页/第六页.html
