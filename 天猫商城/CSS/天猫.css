@@ -102,9 +102,13 @@ body{font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53'
 .brand{width: 488px;height: 437px;float:left;background: url(../images/brand.jpg);background-size: contain}
 .m-brand{width: 743px;height: 437px;float: left;display: flex;flex-wrap: wrap;justify-content: space-around;}
 .xiaoguanggao{width: 123px;height: 108px;background:url(../images/xiaoguanggao.jpg) center center #fff no-repeat;}
+.xiaoguanggao:hover{background:url(../images/xiaoguanggao1-2.png) no-repeat;}
 .xiaoguanggao2{width: 123px;height: 108px;background:url(../images/xiaoguanggao2.jpg) center center #fff no-repeat;}
+.xiaoguanggao2:hover{background:url(../images/xiaoguanggao2-2.png) no-repeat;}
 .xiaoguanggao3{width: 123px;height: 108px;background:url(../images/xiaoguanggao3.jpg) center center #fff no-repeat;}
+.xiaoguanggao3:hover{background:url(../images/xiaoguanggao3-2.png) no-repeat;}
 .xiaoguanggao4{width: 123px;height: 108px;background:url(../images/xiaoguanggao4.jpg) center center #fff no-repeat;}
+.xiaoguanggao4:hover{background:url(../images/xiaoguanggao4-2.png) no-repeat;}
 
 .chaoliu{width: 1231px;height: 477px;margin: 0 auto;display: flex;justify-content: space-between;margin-bottom: 10px}
 .qianyan{width: 238px;height: 477px;background: #fff;position: relative}
