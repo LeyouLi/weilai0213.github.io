@@ -214,6 +214,9 @@ body{font-size: 14px;margin: 0 0;}
 	float: left;color: #010101;line-height: 0.56rem;
 	text-align: center;font-size: 0.2rem;margin-right: 0.08rem;
 }
+.two:hover{
+	background: #25a5de;color: #fff;
+}
 .shengluehao{
 	width: 0.14rem;height: 0.56rem;
 	float: left;color: #010101;line-height: 0.56rem;
@@ -224,6 +227,9 @@ body{font-size: 14px;margin: 0 0;}
 	background: #eeeff3;border-radius: 0.1rem;
 	float: right;color: #010101;line-height: 0.56rem;
 	text-align: center;font-size: 0.2rem;
+}
+.eight:hover{
+	background: #25a5de;color: #fff;
 }
 /*调查*/
 .dck{
@@ -242,6 +248,15 @@ body{font-size: 14px;margin: 0 0;}
 	margin-left: 0.32rem;margin-top: 0.37rem;
 	color: #55b9e5;font-size: 0.16rem;float: left;
 	line-height: 0.42rem;text-align: center;margin-right: 1.32rem;
+}
+.manyidu:hover{
+	background: #25a5de;color: #fff;
+}
+.manyidu2:hover{
+	background: #25a5de;color: #fff;
+}
+.manyidu3:hover{
+	background: #25a5de;color: #fff;
 }
 .manyidu2{
 	width: 1.44rem;height: 0.42rem;
