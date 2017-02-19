@@ -1,0 +1,54 @@
+@import url(1.css);
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "苹方 常规";background: #fafafa}
+@font-face {
+    font-family: 'iconfont';  /* project id 235321 */
+    src: url('//at.alicdn.com/t/font_6levzpll741v2t9.eot');
+    src: url('//at.alicdn.com/t/font_6levzpll741v2t9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_6levzpll741v2t9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_6levzpll741v2t9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_6levzpll741v2t9.svg#iconfont') format('svg');
+}
+
+.header{width: 100%;height: 1.4rem;background: #29a6dc;position: relative;border: 0.01rem solid #29a6dc}
+.back{width: 0.5rem;height:0.5rem;background: #fff;border-radius: 50%;border: 0.02rem solid #0b6ebf;position: absolute;text-align: center;line-height:0.44rem;font-size:0.3rem;color: #40afdf;top:0.68rem;left: 0.24rem;}
+.wodeshujia{width:2.3rem;height: 0.38rem;color: #fff;font-size:0.36rem;margin: 0 auto;margin-top: 0.6rem;text-align: center }
+.henggang{width: 0.34rem;height: 0.03rem;margin: 0 auto;margin-top: 0.08rem}
+.zucheng1{width: 0.03rem;height: 0.03rem;background: #fff;border-radius: 50%;float: left}
+.zucheng3{width: 0.03rem;height: 0.03rem;background: #fff;border-radius: 50%;float: left}
+.zucheng2{width: 0.28rem;height: 0.01rem;background: #fff;float: left;margin-top: 0.01rem}
+.fangdajing{width: 0.44rem;height: 0.44rem;border:0.02rem solid #076cbe;background: #fff;position: absolute;top:0.68rem;right:0.24rem;border-radius: 50%;font-size:0.3rem;text-align: center;line-height: 0.34rem;color: #40b0e0;font-family: iconfont}
+.english{height: 0.13rem;margin: 0 auto;font-size: 0.12rem;color:#a3e3ff;margin-top: 0.02rem;text-align: center}
+.xinxinxi{width: 7.5rem;height:0.48rem;background: #e5e5e5;text-align: center;line-height: 0.48rem;color: #a8a8a8;font-size: 0.2rem;display: block }
+.content1{width: 7.5rem;height:2.2rem;padding-top: 0.1rem}
+.content1 img{width: 0.82rem;height: 0.82rem;float: left;margin-left: 0.22rem;margin-top: 0.5rem}
+.content1neirong{width: 5.31rem;height: 1.81rem;float: left;margin-left: 0.18rem}
+.neirong1{color: #151c2b;font-size: 0.24rem}
+.neirong2{color: #666;font-size: 0.16rem}
+.neirong3{width: 5.31rem;height: 0.84rem;border-radius: 0.05rem;background: #9ae1ff;color: #ec2e56;position: relative;font-size: 0.16rem;padding-top:0.12rem;padding-left:0.24rem;font-family: iconfont  }
+.neirong3dian1{width: 0.06rem;height: 0.06rem;border-radius: 50%;position: absolute;top:0.08rem;left: 0.08rem;background: #fff}
+.neirong3dian2{width: 0.06rem;height: 0.06rem;border-radius: 50%;position: absolute;top:0.08rem;left:5.12rem;background: #fff}
+.neirong3dian2{width: 0.06rem;height: 0.06rem;border-radius: 50%;position: absolute;top:0.69rem;left: 0.08rem;background: #fff}
+.neirong3dian2{width: 0.06rem;height: 0.06rem;border-radius: 50%;position: absolute;top:0.69rem;left: 5.12rem;background: #fff}
+.shuqianneirong3{height: 0.2rem}
+.shuqianneirong3-left{color: #888;font-size: 0.12rem;float: left}
+.left11{color:#6797ff;font-family: iconfont }
+.right11{color:#6797ff;font-family: iconfont }
+.shuqianneirong3-right{color: #888;font-size: 0.12rem;float: left}
+.content1quxiao{width: 0.93rem;height: 2.2rem;border-top:1px solid #29dcbc;border-bottom:1px solid #29dcbc;text-align: center;line-height:2.2rem;color: #29dcbc;font-size: 0.5rem;font-family: iconfont;background: #fff;position: absolute;top:0 ;right: 0 }
+.footer{width: 7.5rem;height: 1.26rem;background: #151c2b;margin-top:4.19rem;border: 1px solid #151c2b}
+.fabiaopinglun{width: 1.4rem;height: 0.52rem;border-radius: 0.52rem;margin: 0 auto;margin-top: 0.4rem;background: #fff;position: relative;text-align: center;line-height: 0.52rem;color: #151c2b;font-size: 0.2rem}
+.pinglundian1{width: 0.06rem;height: 0.06rem;border-radius: 50%;position: absolute;background:#c4c4c4;top:0.24rem;left: 0.08rem }
+.pinglundian2{width: 0.06rem;height: 0.06rem;border-radius: 50%;position: absolute;background:#c4c4c4;top:0.24rem;left:1.25rem }
+
+
+
+
+
+
+
+
+

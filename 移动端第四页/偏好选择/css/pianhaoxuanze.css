@@ -1,0 +1,48 @@
+@import url(phone.css);
+ul,li,input,p,body,header,footer,figure,img{margin: 0;padding: 0;list-style: none;border: none;}
+a{text-decoration: none}
+img{border: none}
+*{box-sizing: border-box}
+body{font-family: "苹方 常规";background: #fafafa}
+.header{width: 100%;height: 1.4rem;background: #29a6dc;position: relative;border: 0.01rem solid #29a6dc}
+.back{width: 0.5rem;height:0.5rem;background: #fff;border-radius: 50%;border: 0.02rem solid #0b6ebf;position: absolute;text-align: center;line-height:0.44rem;font-size:0.3rem;color: #40afdf;top:0.68rem;left: 0.24rem;}
+.wodeshujia{width:2.3rem;height: 0.38rem;color: #fff;font-size:0.36rem;margin: 0 auto;margin-top: 0.6rem;text-align: center }
+.henggang{width: 0.34rem;height: 0.03rem;margin: 0 auto;margin-top: 0.08rem}
+.zucheng1{width: 0.03rem;height: 0.03rem;background: #fff;border-radius: 50%;float: left}
+.zucheng3{width: 0.03rem;height: 0.03rem;background: #fff;border-radius: 50%;float: left}
+.zucheng2{width: 0.28rem;height: 0.01rem;background: #fff;float: left;margin-top: 0.01rem}
+.fangdajing{width: 0.44rem;height: 0.44rem;border:0.02rem solid #076cbe;background: #fff;position: absolute;top:0.68rem;right:0.24rem;border-radius: 50%;font-size:0.3rem;text-align: center;line-height: 0.34rem;color: #40b0e0;font-family: iconfont}
+.english{height: 0.13rem;margin: 0 auto;font-size: 0.12rem;color:#a3e3ff;margin-top: 0.02rem;text-align: center}
+.content1{width: 3.37rem;height: 0.6rem;margin: 0 auto;margin-top: 1.54rem}
+.item{display: block;height: 0.6rem;border-radius: 0.6rem;padding: 0.18rem 0.17rem;color: #666;font-size: 0.28rem;margin-right:0.24rem;float: left;border: 0.01rem solid #000;line-height: 0.28rem; }
+.item1{display: block;height: 0.6rem;border-radius: 0.6rem;padding: 0.18rem 0.17rem;color: #666;font-size: 0.28rem;float: left;border: 0.01rem solid #000;line-height: 0.28rem;}
+.content2{width:6.2rem;height: 0.6rem;margin: 0 auto;margin-top: 0.5rem}
+.item2{display: block;height: 0.6rem;border-radius: 0.6rem;padding: 0.18rem 0.17rem;color: #fff;font-size: 0.28rem;margin-right:0.24rem;float: left;background: #29a6dc ;line-height: 0.28rem;}
+.content3{width: 3.37rem;height: 0.6rem;margin: 0 auto;margin-top: 0.5rem}
+.content4{width: 5rem;height: 0.6rem;margin: 0 auto;margin-top: 0.5rem}
+.item3{display: block;height: 0.6rem;border-radius: 0.6rem;padding: 0.18rem 0.17rem;color: #fff;font-size: 0.28rem;float: left;background: #29a6dc;line-height: 0.28rem; }
+.content5{width: 5rem;height: 0.6rem;margin: 0 auto;margin-top: 0.5rem}
+.content6{width:7rem;height: 0.6rem;margin: 0 auto;margin-top: 0.5rem}
+.item4{width: 3.8rem;display: block;height: 0.6rem;border-radius: 0.6rem;padding: 0.18rem 0.17rem;color: #fff;font-size: 0.28rem;background: #29a6dc;margin: 0 auto;margin-top: 0.5rem;line-height: 0.28rem;}
+.tuichudenglu{width: 5.65rem;height: 0.68rem;margin: 0 auto;margin-top:1.64rem;border-radius: 0.68rem;background: #28dd8b;text-align: center;line-height: 0.68rem;color: #fff;font-size: 0.3rem;position: relative;display: block}
+.dian1{width: 0.06rem;height: 0.06rem;background: #fff;position: absolute;top:0.34rem;left: 0.32rem;border-radius: 50%}
+.dian2{width: 0.06rem;height: 0.06rem;background: #fff;position: absolute;top:0.34rem;left: 5.29rem;border-radius: 50%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
