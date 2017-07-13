@@ -1,0 +1,392 @@
+<!--
+Au<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>个人主页</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Expire Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!--scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!--scrolling-->
+</head>
+<body>	
+<!--top-header-->
+<div id="home" class="top-header">
+	 <div class="container">
+		 <!--<div class="logo">-->
+				<!--<h1><a href="index.html">Emplox</a></h1>-->
+		 <!--</div>-->
+		 <div class="top-menu">
+			 <span class="menu"><img src="images/nav-icon.png" alt=""/></span>
+			 <ul>
+				<li><a class="scroll" href="#home">首页</a></li>
+				<li><a class="scroll" href="#about">关于我</a></li>
+				<li><a class="scroll" href="#service">个人技能</a></li>
+				<li><a class="scroll" href="#gallery">作品展示</a></li>
+				<li><a class="scroll" href="#blog">工作经历</a></li>
+				<li><a class="scroll" href="#contact">联系我</a></li>
+			 </ul>
+		     <!-- script-for-menu -->
+				 <script>					
+							$("span.menu").click(function(){
+								$(".top-menu ul").slideToggle("slow" , function(){
+								});
+							});
+				 </script>
+		     <!-- script-for-menu -->
+		  </div>
+	 </div>
+</div>	
+<!--header-->
+<div class="header">
+		<div class="container">
+			 <div class="banner-info">
+				 <h2>奋斗没有终点
+					 <br>
+					 任何时候都是一个起点</h2>
+				 <p>No end of struggle
+					 <br>
+					 any time is a starting point</p>
+				 <!--<a href="#">Click</a>-->
+			 </div>
+			 <div class="clearfix"></div>
+		</div>
+</div>
+<!--Service-->
+<div id="service" class="service">
+	 <div class="container">
+		 <h3>个人技能</h3>
+		 <div class="service-grids">
+		 <div class="icon-grids">
+			 <div class="col-md-6 futr-grid futr1">
+				 <div class="icon-pic">
+						<div class="icon text-center">
+						 <!--<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>-->
+							精通
+						 </div>
+				  </div>
+				 <div class="icon-info">
+						 <h4>
+							 <p>· HTML5+CSS3布局、css预处理less</p>
+							 <p>· JavaScript、JQuery、ajax</p>
+							 <p>· Angularjs、React单页面开发</p>
+						 </h4>
+				 </div>
+				 <div class="clearfix"></div>
+			 </div>
+			 <div class="col-md-6 futr-grid">
+				  <div class="icon-pic">
+							<div class="icon text-center" >
+							<!--<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>-->
+							掌握
+						 </div>
+				  </div>
+				  <div class="icon-info">
+						<h4>
+							<p>· 响应式布局开发、Bootstrap</p>
+							<p>· PHP、开发过PHPMVC框架</p>
+							<p>· phpcms内容管理系统</p>
+						</h4>
+
+				  </div>
+				  <div class="clearfix"></div>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+		 <div class="icon-grids grids2">
+			 <div class="col-md-6 futr-grid futr1">
+				 <div class="icon-pic">
+						<div class="icon text-center" >
+						 <!--<span class="glyphicon glyphicon-picture" aria-hidden="true"></span>-->
+						熟悉
+						</div>
+				  </div>
+				 <div class="icon-info">
+					 <h4>
+						 <p>· nodejs开发、ES6新特性</p>
+						 <p>· Webpack工程化构建工具</p>
+						 <p>· git协同开发工具</p>
+					 </h4>
+				 </div>
+				 <div class="clearfix"></div>
+			 </div>
+			 <div class="col-md-6 futr-grid">
+				  <div class="icon-pic">
+							<div class="icon text-center">
+							 <!--<span class="glyphicon glyphicon-user" aria-hidden="true"></span>-->
+						     了解
+							</div>
+				  </div>
+				  <div class="icon-info">
+					  <h4>
+						  <p>· ES7新特性</p>
+
+					  </h4>
+				  </div>
+				  <div class="clearfix"></div>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+		 </div>
+	 </div>
+</div>
+<!--about-->
+<div id="about" class="about" style="width: 84%;margin: 0 auto">
+	 <div class="about-left"></div>
+	 <div class="about-right" style="background:#ccc;height:18.4em;padding-top: 1em">
+		<h3>关于我</h3>
+		<h4>李瑶&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;24岁&nbsp;&nbsp;&nbsp;&nbsp;西安交通大学城市学院</h4>
+		 <br>
+		<p>性格开朗，乐于助人，团队意识强，有责任心。工作中严格要求自己，保持好
+			奇，不断的充实自己的知识储备，经常阅读前端方面的书籍，闲暇之余通过做
+			一些相应的demo来检验自己的吸收程度。保持学习的热情，从代码中发现别
+			人发现不了的乐趣。</p>
+	 </div>
+	 <div class="clearfix"></div>
+</div>
+<!--gallery -->
+		<script src="js/jquery.chocolat.js"></script>
+		<!--light-box-files -->
+		<script type="text/javascript">
+		$(function() {
+			$('.moments-bottom a').Chocolat();
+		});
+		</script>
+<!--gallery js-->
+<div id="gallery" class="gallery">
+	 <div class="container">
+		 <h3>作品展示</h3>
+         <div class="gallery-info">
+				<div class="col-md-4 galry-grids">
+					<a  href="http://www.baidu.com">
+						<img src="images/img15.jpg" class="img-responsive" alt="">
+					</a>
+						<div class="about-yincang">
+                            <p>HTML+CSS+JS+phpcms</p>
+							<p>万悦瑜伽官网</p>
+							<br>
+							<span>开发时间:2016年</span><br>
+							<span>开发详情:布局布局布局布局布局布局布局布局布局布局布局布局</span>
+						</div>
+				</div>
+			 <div class="col-md-4 galry-grids">
+				 <a  href="http://www.baidu.com">
+					 <img src="images/img15.jpg" class="img-responsive" alt="">
+				 </a>
+				 <div class="about-yincang">
+					 <p>HTML+CSS+JS+phpcms</p>
+					 <p>万悦瑜伽官网</p>
+					 <br>
+					 <span>开发时间:2016年</span><br>
+					 <span>开发详情:布局布局布局布局布局布局布局布局布局布局布局布局</span>
+				 </div>
+			 </div>
+			 <div class="col-md-4 galry-grids">
+				 <a  href="http://www.baidu.com">
+					 <img src="images/img15.jpg" class="img-responsive" alt="">
+				 </a>
+				 <div class="about-yincang">
+					 <p>HTML+CSS+JS+phpcms</p>
+					 <p>万悦瑜伽官网</p>
+					 <br>
+					 <span>开发时间:2016年</span><br>
+					 <span>开发详情:布局布局布局布局布局布局布局布局布局布局布局布局</span>
+				 </div>
+			 </div>
+			 <div class="col-md-4 galry-grids">
+				 <a  href="http://www.baidu.com">
+					 <img src="images/img15.jpg" class="img-responsive" alt="">
+				 </a>
+				 <div class="about-yincang">
+					 <p>HTML+CSS+JS+phpcms</p>
+					 <p>万悦瑜伽官网</p>
+					 <br>
+					 <span>开发时间:2016年</span><br>
+					 <span>开发详情:布局布局布局布局布局布局布局布局布局布局布局布局</span>
+				 </div>
+			 </div>
+			 <div class="col-md-4 galry-grids">
+				 <a  href="http://www.baidu.com">
+					 <img src="images/img15.jpg" class="img-responsive" alt="">
+				 </a>
+				 <div class="about-yincang">
+					 <p>HTML+CSS+JS+phpcms</p>
+					 <p>万悦瑜伽官网</p>
+					 <br>
+					 <span>开发时间:2016年</span><br>
+					 <span>开发详情:布局布局布局布局布局布局布局布局布局布局布局布局</span>
+				 </div>
+			 </div>
+			 <div class="col-md-4 galry-grids">
+				 <a  href="http://www.baidu.com">
+					 <img src="images/img15.jpg" class="img-responsive" alt="">
+				 </a>
+				 <div class="about-yincang">
+					 <p>HTML+CSS+JS+phpcms</p>
+					 <p>万悦瑜伽官网</p>
+					 <br>
+					 <span>开发时间:2016年</span><br>
+					 <span>开发详情:布局布局布局布局布局布局布局布局布局布局布局布局</span>
+				 </div>
+			 </div>
+
+				<div class="clearfix"> </div>
+			</div>
+	 </div>
+</div>
+<!---->
+<div id="blog" class="blog">
+	 <div class="container">
+		 <h3>工作经历</h3>
+		 <div class="blog-grids">
+			 <!--<div class="col-md-6 blog-grid">-->
+				 <!--<a href="#"><img src="images/b1.jpg" class="img-responsive" alt=""/></a> -->
+				 <!--<h4><a href="#">Etiam luctus velit ac cursus lobortis.</a></h4>-->
+					<!--<span>Mar 12 | 2015</span>-->
+				 <!--<p>Aenean eget eleifend nulla. Nunc vel nisi mi. Ut faucibus ornare tempus. Donec non mi et sem convallis tincidunt ac in purus. Nullam tincidunt orci elit, vitae vulputate sapien ullamcorper et. Sed ut est purus. Duis consectetur suscipit ullamcorper. Nam dictum nisl odio, eget maximus ante interdum iaculis urna sapien.</p>				 -->
+			 <!--</div>-->
+			 <!--<div class="col-md-6 blog-grid">-->
+				 <!--<a href="#"><img src="images/b2.jpg" class="img-responsive" alt=""/> </a> -->
+				 <!--<h4><a href="#">Etiam luctus velit ac cursus lobortis.</a></h4>-->
+					<!--<span>Mar 12 | 2015</span>-->
+				 <!--<p>Aenean eget eleifend nulla. Nunc vel nisi mi. Ut faucibus ornare tempus. Donec non mi et sem convallis tincidunt ac in purus. Nullam tincidunt orci elit, vitae vulputate sapien ullamcorper et. Sed ut est purus. Duis consectetur suscipit ullamcorper. Nam dictum nisl odio, eget maximus ante interdum iaculis urna sapien.</p>-->
+			 <!--</div>-->
+			 <div class="clearfix"></div>
+			 <div class="middleblog-grid blog-grid">
+				 <a href="#"><img src="images/b3.jpg" class="img-responsive" alt=""/> </a> 
+				 <h4 style="text-align:center;"><a href="#">西安青云网络科技有限公司</a></h4>
+				 <br>
+					<span style="text-align:center;">2016年9月~2017年5月&nbsp;&nbsp;&nbsp;&nbsp;前端工程师</span>
+				 <!--<span style="margin-left: 165px">主要负责内容:</span>-->
+				 <p style="margin:0 auto;text-align: center">
+					 1. 负责PC端与移动端产品、项目开发<br>
+					 2. 协同UI实现页面静态布局以及交互效果<br>
+					 3. 辅助后台搭建模板，并完成数据交互<br>
+					 4. 分析及优化网站性能，提升用户使用体验
+				 </p>
+				 <!--<p style="margin-left: 12em">2. 协同UI实现页面静态布局以及交互效果</p>-->
+				 <!--<p style="margin-left: 12em">3. 辅助后台搭建模板，并完成数据交互</p>-->
+				 <!--<p style="margin-left: 12em">4. 分析及优化网站性能，提升用户使用体验</p>-->
+				
+			 </div>
+		 </div>
+	 </div>
+</div>
+<!---->		
+<!--<div class="map">-->
+	 <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6632.248000703498!2d151.265683!3d-33.7832959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12abc7edcbeb07%3A0x5017d681632bfc0!2sManly+Vale+NSW+2093%2C+Australia!5e0!3m2!1sen!2sin!4v1433329298259" style="border:0"></iframe>-->
+<!--</div>-->
+<!---->	
+<div id="contact" class="contact">
+	 <div class="container">
+		 <h3>联系我</h3>
+		 <div class="touch-top">
+			 <div class="col-md-6 touch-left">
+					 <div class="touch-right-top">
+						 <!--<span class="add">地址</span>-->
+						 <p style="font-size: 20px;color: #181818">地址</p>
+						 <h4 style="font-size: 16px;">123 MAIN STREET,<label>CITY, COUNTRY</label></h4>
+					 </div>
+					 <div class="touch-right-top">
+						 <!--<span class="mail"> </span>-->
+						 <p style="font-size: 20px;color: #181818">邮箱</p>
+						 <p  style="font-size: 16px;">lmy_cloud@163.COM</p>
+					 </div>
+					 <div class="touch-right-top">
+						 <!--<span class="num"> </span>-->
+						 <p style="font-size: 20px;color: #181818">电话</p>
+						 <p  style="font-size: 16px;">155-2934-1571</p>
+					 </div>
+			 </div>
+			 <div class="col-md-6 touch-right">
+					<div class="touch-right-top">
+							<!--<span class="add"> </span>-->
+						<p style="font-size: 20px;color: #181818">QQ</p>
+							<h4  style="font-size: 16px;">1175543313</h4>
+					</div>
+					<div class="touch-right-top">
+						<p style="font-size: 20px;color: #181818">微信</p>
+							<p  style="font-size: 16px;">lmy1175543313</p>
+					</div>
+					<div class="touch-right-top">
+						<p style="font-size: 20px;color: #181818">现居地</p>
+							<p  style="font-size: 16px;">西安市雁塔区</p>
+					</div>
+			 </div>
+				<div class="clearfix"></div>
+		  </div>
+	 </div>
+</div>
+<div class="footer">
+	 <div class="container">
+		 <p>感谢您的浏览，期待您的回复</p>
+		 <!--<div class="social">							-->
+				<!--<a href="#"><i class="facebook"></i></a>-->
+				<!--<a href="#"><i class="twitter"></i></a>-->
+				<!--<a href="#"><i class="dribble"></i></a>	-->
+				<!--<a href="#"><i class="google"></i></a>	-->
+				<!--<a href="#"><i class="youtube"></i></a>	-->
+		 <!--</div>-->
+		 <div class="arrow">
+			 <a class="scroll" href="#home"><img src="images/top.png" alt=""></a>
+		 </div>
+	 </div>
+</div>
+<!---->
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!---->
+<script>
+	var kk=document.querySelectorAll('.galry-grids');
+	var yc=document.querySelectorAll('.about-yincang');
+	console.log(kk);
+	console.log(yc);
+	kk.forEach(function (a,i) {
+		a.onmouseover = function () {
+			yc[i].style.transform = `translateY(-11.5em)`
+		}
+		a.onmouseout = function () {
+			yc[i].style.transform = `translateY(0em)`;
+		}
+	})
+</script>
+
+</body>
+</html>		
+	
