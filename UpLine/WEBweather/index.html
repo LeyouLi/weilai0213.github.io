@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>和风天气</title>
+    <link rel="stylesheet" href="css/phone.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/tools.js"></script>
+    <script src="js/data.js"></script>
+</head>
+<body>
+<!--头部开始-->
+<header>
+    <div class="header-top"></div>
+    <div class="header-top-k">
+        <div class="top-dingwei">
+            <span class="iconfont dingwei">&#xe69d;&nbsp;&nbsp;</span>
+            <div class="top-dizhi"></div>
+        </div>
+
+        <div class="header-xiangxi-k">
+            <div class="header-xiangxi-du">
+
+            </div>
+
+            <div class="header-nr-k">
+                <div class="iconfont header-weather">&#xe638;</div>
+                <div class="header-now-weather"></div>
+                <div class="header-now-tem">16°~32°</div>
+            </div>
+        </div>
+
+    </div>
+</header>
+<!--头部结束-->
+
+<!--内容-->
+<section>
+    <div class="section-nr-tem">
+        <div class="section-nr-h">
+            <div class="section-nr-tem-h-l">
+                预报
+            </div>
+            <div class="section-nr-tem-h-r">
+                <div class="section-nr-date">
+                    今天日期--
+                </div>
+                <div class="section-nr-date2 section-nr-h-week">
+                   <!--获取周几-->
+                </div>
+            </div>
+        </div>
+        <div class="section-nr-tem-c">
+             <!--获取时间点-->
+        </div>
+    </div>
+    <div class="section-nr-rec">
+        <!--获取未来几天天气-->
+    </div>
+
+    <div class="d-data">
+        <div class="future-today-h">
+            <div class="section-nr-h">
+                详细信息
+            </div>
+
+        </div>
+        <div class="det-data-c">
+            <div class="det-data-c-l iconfont">
+                &#xe638;
+            </div>
+            <div class="future-det-data-c-r">
+               <!--详细指数-->
+            </div>
+        </div>
+    </div>
+    <!--空气质量-->
+    <div class="air-zhiliang-k">
+        <div class="today-h">
+            <div class="section-nr-h">
+                空气质量
+            </div>
+            <div class="section-nr-tem-h-r zhiliang-air2">
+                <div style="color: #fff">
+                    <span class="airn"></span> · <span class="airi">97</span>
+                </div>
+            </div>
+        </div>
+        <div class="zhiliang-zhizhen">
+            <div class="zhiliang-sanjiao">
+                ▼
+            </div>
+        </div>
+        <div class="zhiliang-tu"></div>
+    </div>
+
+
+    <!--各项空气指数-->
+    <div class="airzhiliang-k">
+
+    </div>
+
+    <!--生活指数-->
+    <div class="shenghuozhishu-k">
+        <div class="today-h">
+            <div class="section-nr-h">
+                生活指数
+            </div>
+        </div>
+        <div class="zhishu-fenlei">
+
+        </div>
+
+    </div>
+</section>
+<!--底部-->
+<footer>
+    <div class="zhongyangqixiang">
+        中央气象台
+    </div>
+    <div class="now-time">
+        16:38发布
+    </div>
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>

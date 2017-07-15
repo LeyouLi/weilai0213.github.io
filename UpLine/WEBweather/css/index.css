@@ -1,0 +1,297 @@
+ul,li,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;padding: 0;
+}
+*{
+    color: #fff;font-weight: lighter;
+    /*font-family: '楷体';*/
+}
+body,html{
+    padding: 0;margin: 0;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 329865 */
+    src: url('https://at.alicdn.com/t/font_pj7bzkrtn44mquxr.eot');
+    src: url('https://at.alicdn.com/t/font_pj7bzkrtn44mquxr.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_pj7bzkrtn44mquxr.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_pj7bzkrtn44mquxr.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_pj7bzkrtn44mquxr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont'!important;
+}
+.dingwei{
+    color: #77d2ff;
+}
+/*头部开始*/
+header{
+    width: 100%;height: auto;
+}
+.header-top{
+    width: 100%;height: 0.4rem;
+
+}
+.header-top-k{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.top-dingwei{
+    width: auto;height: 0.5rem;
+    display: flex;
+    font-size: 0.5rem;line-height: 0.5rem;
+    margin: 0 auto;margin-top: 0.25rem;
+}
+.header-xiangxi-k{
+   display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.header-xiangxi-du{
+    width: 3rem;
+    height: 2.3rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-weight: lighter;
+    border-right: 2px solid #fcfffc;
+    float: left;
+    margin-left: 0.5rem;
+}
+.header-nr-k{
+    font-size: 0.5rem;
+    float: left;
+    padding-left: 0.3rem;
+}
+.header-nr-k>div{
+    margin-top: 0.15rem;
+}
+.header-nr-k>div:first-child{
+    margin-top: 0.08rem;
+}
+/*内容*/
+section {
+    margin-top:1.5rem;
+    padding: 0 0.3rem;
+}
+.section-nr-tem{
+    height: auto;
+}
+.section-nr-h{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid #fcfffc;
+    font-size: 0.4rem;
+    margin-top: 0.4rem;
+}
+.section-nr-tem-h-l{
+    color: #e9e9e9;
+    font-size: 0.4rem;
+}
+.section-nr-date{
+    font-size: 0.4rem;
+    color: #e9e9e9;
+}
+.section-nr-date2{
+    font-size: 0.4rem;
+    color: #ffffff;
+}
+.section-nr-tem-h-r{
+    color: #e9e9e9;
+    font-size: 0.4rem;
+    display: flex;
+    width: auto;
+}
+.section-nr-tem-c{
+    display: flex;
+    font-size: 0.3rem;
+    justify-content: space-between;
+    padding-top: 0.2rem;
+    padding-bottom: 0.3rem;
+
+}
+.section-nr-tem-c>div{
+    text-align: center;
+}
+
+.air-zhiliang-k{
+   position: relative;
+}
+.zhiliang-air2{
+   position: absolute;
+    top:0.4rem;left: 5rem;
+}
+
+.section-nr-rec{
+    padding-top: 0.2rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid #fcfffc;
+    border-top: 1px solid #fcfffc;
+}
+.section-nr>.section-nr-item:last-child>.section-nr-item-tem{
+    /*border-right: none;*/
+}
+.section-nr-item>div:first-child{
+    font-size: 0.4rem;
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+.section-nr-item{
+    padding-right: 0.2rem;
+}
+.section-nr-item-tem{
+    display: flex;
+    justify-content: center;
+    margin-right: -0.2rem;
+    padding-right: 0.2rem;
+    margin-bottom: 0.25rem;
+}
+.section-nr-item-tem-w{
+    font-size: 0.6rem;
+
+}
+.section-nr-item-tem-t>div{
+    font-size: 0.24rem;
+}
+.section-nr-item>div:last-child{
+    font-size: 0.32rem;
+    text-align: center;
+}
+
+.det-data{
+    margin-top: 0.7rem;
+}
+.det-data-c{
+    display: flex;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #fcfffc;
+}
+.det-data-c-l{
+    line-height: 3.5rem;
+    font-size: 2rem;
+}
+.future-det-data-c-r{
+    margin-top: 0.2rem;
+    width: 100%;
+    padding-left: 0.3rem;
+}
+.future-det-data-c-r>div{
+    border-bottom: 2px dashed #fcfffc;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    width: auto;
+}
+.future-det-data-c-r>div:last-child{
+    border-bottom:none;
+}
+.future-det-data-c-r>div>span{
+    float: right;
+    color: #fff;!important;
+}
+
+.air-zhiliang-k{
+    margin-top: 0.7rem;
+    border-bottom: 1px solid #fcfffc;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+}
+.zhiliang-zhizhen{
+    position: relative;
+
+}
+.zhiliang-sanjiao{
+    display: block;
+    width: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.3rem;
+    position: absolute;
+    left: 0;
+    margin-left: -0.15rem;
+}
+.zhiliang-tu{
+    width: 100%;height: 0.8rem;
+    margin-top: 0.9rem;
+    background-image: url("../images/air.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.airzhiliang-k{
+    border-bottom: 3px solid #fcfffc;
+    padding-bottom: 0.3rem;
+}
+.airzhiliang-k>div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+.airzhiliang-k>div>.zhiliang-item{
+    width: 1.7rem;
+}
+.airzhiliang-k>div>.zhiliang-item>div:first-child{
+    font-size: 0.3rem;
+    color:#fff;
+}
+.airzhiliang-k>div>.zhiliang-item>div:last-child{
+    font-size: 0.3rem;
+    color: #d8d8d8;
+}
+
+.shenghuozhishu-k{
+    margin-top: 0.4rem;
+}
+.zhishu-fenlei{
+    /*margin-top: 0.8rem;*/
+    border-bottom: 3px solid #fcfffc;
+}
+.zhishu-fenlei-item{
+    display: flex;
+    height: auto;
+    padding-bottom: 0.15rem;
+}
+.zhishu-fenlei-item>span{
+    font-size: 0.7rem;
+    line-height: 2rem;
+    width: 2rem;
+    text-align: center;
+}
+.zhishu-fenlei-item-c{
+    width: 100%;
+    border-bottom: 1px dashed #fcfffc;
+}
+.zhishu-fenlei-s>.today-state{
+    font-size: 0.5rem;
+    margin-top: 0.4rem;
+}
+.zhishu-fenlei-s>.today-state span{
+    font-size: 0.3rem;
+    margin-top: 0.15rem;
+    float: right;
+}
+.zhishu-fenlei-s>.today-suggestion{
+    font-size: 0.3rem;
+    margin-top: 0.1rem;
+    width: 5rem;
+    padding-bottom: 0.3rem;
+}
+.zhishu-fenlei>.zhishu-fenlei-item:last-child>.zhishu-fenlei-item-c{
+    border-bottom:none;
+}
+
+/*底部*/
+footer{
+
+    padding: 0.1rem 0.48rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    color: #cdd0da;
+}
+
