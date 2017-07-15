@@ -39,7 +39,7 @@ store.getNow(function(data){
     }else if(noww.innerHTML=='阴'){
         hw.innerHTML='&#xe607;';
         nt.innerHTML='&#xe607;';
-        html.style.backgroundImage='url("images/blur_bg_fog_and_haze.jpg")'
+        html.style.backgroundImage='url("images/blur_bg_fog_day.jpg")'
     }else if(noww.innerHTML=='阵雨'||noww.innerHTML=='小雨'||noww.innerHTML=='中雨'||noww.innerHTML=='大雨'||noww.innerHTML=='阴转小雨'||noww.innerHTML=='毛毛雨/细雨'){
         hw.innerHTML='&#xe6fb;';
         nt.innerHTML='&#xe6fb;';
