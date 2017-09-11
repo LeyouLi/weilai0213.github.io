@@ -220,7 +220,7 @@ body{
 .jf-news{
     width: 100%;height: auto;
     border-top: 1px solid #fff;
-    display: inline-block;
+    overflow: hidden;
 }
 .jf-news>p:nth-child(1){
     font-size: 0.36rem;color: #cc9900;
