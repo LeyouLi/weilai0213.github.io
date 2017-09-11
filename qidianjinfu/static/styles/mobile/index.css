@@ -243,6 +243,11 @@ body{
     margin-bottom: 0.3rem;
     float: left;
 }
+.jf-news-list:last-child>img{
+    width: 0.46rem;height: 0.4rem;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+}
 .jf-lists-left{
     width: 2.7rem;height: 2.03rem;
     float: left;
@@ -279,18 +284,6 @@ body{
 .jf-lists-right>p:nth-child(3)>span>a{
     color: #ee7700;
 }
-.jf-news .jf-more{
-    background: url("../../images/mobile/home/more.png")no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: 0.3rem;
-    margin-bottom: 0.54rem;
-    cursor: pointer;
-}
-.jf-news .jf-more>img{
-    width: 0.46rem;
-    height: 0.4rem;
-}
 
 /*合作伙伴*/
 .jf-team{
@@ -307,7 +300,6 @@ body{
     top:50%;left:50%;
     transform: translate(-50%,-50%);
     padding: 0 1.24rem 0 1.24rem;
-    transform: translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%);
     -moz-transform:translate(-50%,-50%);
     -webkit-transform:translate(-50%,-50%);
