@@ -294,6 +294,7 @@ body{
     background: url("../../images/mobile/home/bg3.png") no-repeat center center;
     background-size: cover;
     position: relative;
+    display: block;
 }
 .jf-team-box{
     width: 9.6rem;height: 5.57rem;
@@ -329,7 +330,7 @@ body{
 .jf-callus{
     width: 100%;
     border-top: 1px solid #fff;
-    padding-bottom: 0.6rem;
+    padding-bottom: 0.6rem;display: block;
 }
 .jf-callus>p:nth-child(1){
     font-size: 0.36rem;color: #cc9900;
