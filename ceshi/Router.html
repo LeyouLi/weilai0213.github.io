@@ -25,11 +25,11 @@
         language: (navigator.browserLanguage || navigator.language).toLowerCase()
     }
 
-    if (browser.versions.ios || browser.versions.iPhone || browser.versions.iPad || browser.versions.android || browser.versions.webApp ) {
-        window.location="https://www.baidu.com";
+    if (browser.versions.ios || browser.versions.iPhone || browser.versions.iPad || browser.versions.android  ) {
+        window.location="./pages/mobile/index.html";
     }
-    else {
-        window.location="http://www.bootcss.com/";
+    else if(browser.versions.trident || browser.versions.presto || browser.versions.webKit ||browser.versions.gecko ){
+        window.location="./pages/pc/index.html";
     }
 </script>
 </body>

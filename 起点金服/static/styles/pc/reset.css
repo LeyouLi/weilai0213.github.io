@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Microsoft Yahei';
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	border:none;
+}
+ul,ol,li{
+	list-style: none;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	clear: both;
+}

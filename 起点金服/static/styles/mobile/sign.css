@@ -1,0 +1,203 @@
+p,h1,h2,h3,h4,h5,h6,pre,input,dd,ul,dt,dl,ol,figure,body,input,article{
+    margin: 0;padding: 0;list-style: none;border: none;}
+img{border: none;display: block;margin: 0;padding: 0;}
+input,a{text-decoration: none;outline: none}
+*{box-sizing: border-box;}
+a:active{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html{ font-size: 100px}
+
+/*登录页面*/
+.jf-header{
+    width: 100%;height: 1.5rem;
+    z-index: 9999;
+    padding-left: 0.54rem;
+    padding-right: 0.54rem;
+}
+.jf-header-box{
+    width: 100%;height: 100%;
+}
+.jf-header-box>p:first-child{
+    width: 0.25rem;height: 0.46rem;
+    margin-top: 0.96rem;
+    float: left;
+}
+.jf-header-box>p:first-child>a{
+    width: 0.25rem;height: 0.46rem;
+}
+.jf-header-box>p:first-child>a>img{
+    width: 0.25rem;height: 0.46rem;
+}
+
+/*LOGO内容*/
+.jf-login-logo-box{
+    width: 1.7rem;
+    margin: 0 auto;
+    margin-bottom: 1.1rem;
+}
+.jf-login-logo-box>img{
+    width: 1.7rem;height: 1.7rem;
+    margin-top: 1.52rem;
+}
+.jf-login-logo-box>p{
+    font-size: 0.5rem;color: #777777;
+    text-align: center;
+    margin-top: 0.34rem;
+}
+
+
+/*登录框*/
+.jf-login-input{
+    width: 6.5rem;height: auto;
+    margin: 0 auto;
+}
+.jf-input-name{
+    width: 100%;height: 0.8rem;
+    border-bottom: 1px solid #82959E;
+    position: relative;
+}
+.jf-input-name>img{
+    width: 0.62rem;height: 0.63rem;
+    float: left;
+}
+.jf-input-name>input{
+    width: 4.7rem;height: 0.7rem;
+    float: left;margin-left: 0.5rem;
+}
+.jf-input-name>p{
+    font-size: 0.24rem;color: #d30000;
+    position: absolute;
+    right: 0.2rem;
+    line-height: 0.6rem;
+    display: block;
+}
+.jf-input-password{
+    width: 100%;height: 0.8rem;
+    border-bottom: 1px solid #82959E;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.jf-input-password>img:nth-child(1){
+    width: 0.62rem;height: 0.63rem;
+    float: left;
+}
+.jf-input-password>input{
+    width: 4.7rem;height: 0.7rem;
+    float: left;margin-left: 0.5rem;
+}
+.jf-input-picture{
+    width: 100%;height: 0.8rem;
+    border-bottom: 1px solid #82959E;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.jf-input-picture>img:nth-child(1){
+    width: 0.62rem;height: 0.48rem;
+    margin-top: 0.1rem;
+    float: left;
+}
+.jf-input-picture>input{
+    width: 4rem;height: 0.7rem;
+    float: left;margin-left: 0.5rem;
+}
+.jf-input-picture>img:nth-child(3){
+    width: 0.85rem;height: 0.34rem;
+    margin-top: 0.18rem;
+    float: right;
+}
+
+.jf-input-phone{
+    width: 100%;height: 0.8rem;
+    border-bottom: 1px solid #82959E;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.jf-input-phone>img:nth-child(1){
+    width: 0.62rem;height: 0.63rem;
+    float: left;
+}
+.jf-input-phone>input{
+    width: 2.8rem;height: 0.7rem;
+    float: left;margin-left: 0.5rem;
+}
+.jf-input-phone>p{
+    /*width: 2.5rem;*/
+    line-height: 0.7rem;
+    font-size: 0.24rem;color: #60D297;
+    float: right;
+}
+
+.jf-login-button{
+    width: 6.5rem;height: 1.2rem;
+    border:1px solid  #006CC8;
+    font-size: 0.5rem;color: #999999;
+    font-weight: bold;
+    line-height: 1.2rem;text-align: center;
+    border-radius: 0.08rem;
+    margin: 0 auto;
+    margin-top: 1.04rem;
+}
+.jf-login-forget{
+    width: 5.7rem;
+    font-size: 0.3rem;color: #006CC8;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.9rem;
+}
+.jf-login-forget>img{
+    width: 0.26rem;height: 0.26rem;
+    display: inline-block;
+    margin-top: 0.1rem;
+    float: left;
+}
+.jf-login-forget>span{
+    color: #000;
+}
+.jf-login-forget>a{
+    color: #006CC8;
+    text-decoration: underline;
+}
+.jf-login-sign{
+    font-size: 0.3rem;color: #006CC8;
+    text-align: center;
+    margin-top: 0.46rem;
+    margin-bottom: 1rem;
+}
+.jf-login-sign>a{
+    color: #006CC8;
+}
+
+
+@media screen and (min-width: 320px){
+    html{ font-size: 29.63px}
+}
+@media (max-width: 320px){
+    .jf-login-forget {
+        width: 6.5rem;
+    }
+    .jf-input-phone>input {
+        width: 2.4rem;
+    }
+}
+@media screen and (min-width: 360px){
+    html{ font-size: 33.33px}
+}
+@media screen and (min-width:375px){
+    html{ font-size: 34.72px}
+}
+@media screen and (min-width:412px){
+    html{font-size: 38.148px;}
+}
+@media screen and (min-width:414px){
+    html{font-size: 38.333333px;}
+}
+@media screen and (min-width:768px){
+    html{font-size: 71.11111px;}
+}
+@media (max-width:768px){
+
+}
+@media screen and (min-width:1024px){
+    html{font-size: 94.815px;}
+}
