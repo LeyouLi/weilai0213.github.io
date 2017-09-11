@@ -7,11 +7,13 @@ headerBtn.onclick=function () {
     flag=!flag;
     if(flag){
         selfNone.style.height = "0rem";
+        selfMeng.style.display = "none";
         headerNone.style.height = "20rem";
         headerBox.style.background = "#000";
         body.style.overflow = "hidden";
     }else{
         selfNone.style.height = "0rem";
+        selfMeng.style.display = "none";
         headerNone.style.height = "0rem";
         headerBox.style.background = "none";
         body.style.overflow = "auto";
