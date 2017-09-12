@@ -88,8 +88,6 @@ body{
     display: none;
 }
 
-
-
 .jf-header-hidden{
     width: 100%;height: 0rem;
     background: #000;
@@ -113,84 +111,81 @@ body{
     color: #fff;
 }
 
-/*钱包地址*/
-.jf-wallet-address{
-    width: 100%;height: 3.68rem;
-    background: url("../../images/mobile/home/wallet.png") no-repeat center center;
-    background-size: cover;
-    padding-left: 1.3rem;
-    padding-top: 0.7rem;
-}
-.jf-wallet-address>p{
-    color: #fff;font-size: 0.4rem;
-    line-height: 1rem;
-}
-.jf-wallet-list{
-    padding: 0 1.2rem 0 1.2rem;
-
-}
-.jf-wallet-list1{
-    width: 8.4rem;
-    padding: 0.52rem 0 0.52rem 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #ccc;
-}
-.jf-wallet-list1>p{
+/*安全中心内容*/
+.jf-safe-title{
     color: #000;font-size: 0.44rem;
+    padding: 1.4rem 0 0 0.86rem;
+    font-weight: bold;
+    margin-bottom: 1.14rem;
 }
-.jf-wallet-list2{
-    width: 8.4rem;
-    padding: 0.52rem 0 0rem 0;
-    margin: 0 auto;
-    border-bottom: 1px solid #ccc;
+.jf-safe-box{
+    padding: 0 1.2rem 0 1.2rem;
 }
-.jf-caozuo-list{
-    display: flex;
-    justify-content: space-between;
-    color:#666;
+.jf-safe-list1{
+    width: 8.4rem;height: 1rem;
+    border-bottom: 1px solid #999;
 }
-.jf-caozuo-list>p:nth-child(1){
-    width: 1.8rem;
-    font-size: 0.44rem;
+.jf-safe-list1>img{
+    width: 0.55em;height: 0.55rem;
+    margin-right: 0.44rem;
+    float: left;
 }
-.jf-caozuo-list>p:nth-child(2){
-    width: 3rem;
-    font-size: 0.44rem;
+.jf-safe-list1>p:nth-child(2){
+    color: #006cc8;font-size: 0.4rem;
+    float: left;
 }
-.jf-caozuo-list>img{
-    width: 0.6rem;height: 0.6rem;
-    margin-right: 0.15rem;
-    transform : rotate(0deg);
-    -ms-transform:rotate(0deg);
-    -moz-transform:rotate(0deg);
-    -webkit-transform:rotate(0deg);
-    -o-transform:rotate(0deg);
-    transition: all 0.3s;
+.jf-safe-list1>p:nth-child(3){
+    color: #d50000;font-size: 0.36rem;
+    float: right;
 }
-.jf-caozuo{
-    width: 8.4rem;height: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 0.6rem;
-    transition: all 0.5s;
+.jf-safe-list2{
+    width: 8.4rem;height: 1rem;
+    border-bottom: 1px solid #999;
+    margin-top: 0.6rem;
 }
-.jf-caozuo>p{
-    width: 2rem;height: 0.7rem;
-    text-align: center;
-    line-height: 0.7rem;
-    border-radius: 0.15rem;
-    font-size: 0.42rem;
-    color: #006CC8;
-    border: 1px solid #006CC8;
+.jf-safe-list2>img{
+    width: 0.55em;height: 0.55rem;
+    margin-right: 0.44rem;
+    float: left;
+}
+.jf-safe-list2>p:nth-child(2){
+    color: #006cc8;font-size: 0.4rem;
+    float: left;
+}
+.jf-safe-list2>p:nth-child(3){
+    color: #999;font-size: 0.36rem;
+    float: right;
+}
+.jf-safe-list3{
+    width: 8.4rem;height: 1rem;
+    border-bottom: 1px solid #999;
+    margin-top: 0.6rem;
+}
+.jf-safe-list3>img:nth-of-type(1){
+    width: 0.55em;height: 0.55rem;
+    margin-right: 0.44rem;
+    float: left;
+}
+.jf-safe-list3>p:nth-of-type(1){
+    color: #006cc8;font-size: 0.4rem;
+    float: left;
+}
+.jf-safe-list3>p:nth-of-type(2){
+    color: #999;font-size: 0.36rem;
+    float: right;
+}
+.jf-safe-list3>a{
+    width: 0.18em;height: 0.35rem;
+    float: right;
     margin-top: 0.1rem;
+    margin-left: 0.2rem;
+    display: block;
 }
-.jf-caozuo>p:hover{
-    background: #006CC8;
-    color: #fff;
+.jf-safe-list3>a>img{
+    width: 0.18em;height: 0.35rem;
 }
+
+
 
 @media screen and (min-width: 320px){
     html{ font-size: 29.63px}

@@ -100,13 +100,17 @@ html{ font-size: 100px}
 }
 .jf-login-button{
     width: 6.5rem;height: 1.2rem;
-    background: #006CC8;
-    font-size: 0.5rem;color: #fff;
+    font-size: 0.5rem;color: #006CC8;
+    border: 1px solid #006CC8;
     font-weight: bold;
     line-height: 1.2rem;text-align: center;
     border-radius: 0.08rem;
     margin: 0 auto;
     margin-top: 1.04rem;
+}
+.jf-login-button:hover{
+    background: #006CC8;
+    color: #fff;
 }
 .jf-login-forget{
     font-size: 0.3rem;color: #006CC8;
