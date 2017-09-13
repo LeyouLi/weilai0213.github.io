@@ -187,6 +187,12 @@ body{
     border: 1px solid #006CC8;
     margin-top: 0.1rem;
 }
+.jf-caozuo>p>a{
+    color: #006CC8;
+}
+.jf-caozuo>p>a:hover{
+    color: #fff;
+}
 .jf-caozuo>p:hover{
     background: #006CC8;
     color: #fff;
