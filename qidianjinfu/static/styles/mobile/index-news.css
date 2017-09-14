@@ -116,31 +116,23 @@ body{
 
 /*新闻内容*/
 .jf-news-top{
-    padding-left: 0.38rem;
-    height: 0.8rem;
-    background: #ccc;
+    height: 0.8rem;width: 100%;
+    background: #f4f4f4;
 }
-.jf-news-top>p:nth-child(1){
+.jf-news-top>p{
     color: #777;font-size: 0.3rem;
-    line-height: 0.8rem;
-    float: left;
-}
-.jf-news-top>p:nth-child(2){
-    color: #777;font-size: 0.3rem;
-    line-height: 0.8rem;
-    margin-left: 0.5rem;
-    float: left;
+    line-height: 0.8rem;text-align: center;
 }
 .jf-news-title{
     color: #000;font-size: 0.6rem;
-    text-align: center;margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    text-align: center;margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+    /*font-weight: bold;*/
 }
 .jf-news-img{
     width: 8.4rem;
     margin: 0 auto;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
 }
 .jf-news-img>img{
     width: 8.4rem;

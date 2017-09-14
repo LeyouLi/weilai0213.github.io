@@ -37,9 +37,19 @@ selfBtn.onclick=function () {
         body.style.overflow = "auto";
         selfMeng.style.display = "none";
     }
+};
+var newsList = document.querySelector(".jf-news-list2>img");
+var newsBox = document.querySelector(".jf-news");
+newsList.onclick = function () {
+    flag=!flag;
+    if(flag){
+        newsBox.style.height = "auto";
+        newsList.style.transform = "rotate(-180deg)"
+    }else{
+        newsBox.style.height = "19.4rem";
+        newsList.style.transform = "rotate(0deg)"
+    }
 }
-
-
 
     
 
