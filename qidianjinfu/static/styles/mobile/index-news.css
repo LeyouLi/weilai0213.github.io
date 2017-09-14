@@ -28,11 +28,14 @@ body{
     justify-content: space-between;
 }
 .jf-header-box>p:first-child{
-    width: 0.44rem;height: 0.42rem;
+    width: 0.44rem;height: 0.35rem;
     margin-top: 0.44rem;
 }
-.jf-header-box>p:first-child>img{
-    width: 0.5rem;height: 0.35rem;
+.jf-header-box>p:first-child>a{
+    width: 0.44rem;height: 0.35rem;
+}
+.jf-header-box>p:first-child>a>img{
+    height: 0.35rem;
 }
 .jf-header-box>p:nth-child(2){
     height: 0.54rem;
@@ -111,13 +114,42 @@ body{
     color: #fff;
 }
 
-/*钱包地址*/
-
-
-/*粉丝信息*/
-
-
-
+/*新闻内容*/
+.jf-news-top{
+    padding-left: 0.38rem;
+    height: 0.8rem;
+    background: #ccc;
+}
+.jf-news-top>p:nth-child(1){
+    color: #777;font-size: 0.3rem;
+    line-height: 0.8rem;
+    float: left;
+}
+.jf-news-top>p:nth-child(2){
+    color: #777;font-size: 0.3rem;
+    line-height: 0.8rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+.jf-news-title{
+    color: #000;font-size: 0.6rem;
+    text-align: center;margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.jf-news-img{
+    width: 8.4rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.jf-news-img>img{
+    width: 8.4rem;
+}
+.jf-news-nr{
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+    color: #777;font-size: 0.3rem;
+    line-height: 0.6rem;
+}
 
 @media screen and (min-width: 320px){
     html{ font-size: 29.63px}

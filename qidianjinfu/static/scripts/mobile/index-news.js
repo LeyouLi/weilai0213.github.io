@@ -1,21 +1,6 @@
-var headerBtn = document.querySelector("#jf-header-btn");
 var headerNone = document.querySelector(".jf-header-hidden");
 var body = document.querySelector("body");
 var flag = false;
-headerBtn.onclick=function () {
-    flag=!flag;
-    if(flag){
-        selfNone.style.height = "0rem";
-        selfMeng.style.display = "none";
-        headerNone.style.height = "20rem";
-        body.style.overflow = "hidden";
-    }else{
-        selfNone.style.height = "0rem";
-        selfMeng.style.display = "none";
-        headerNone.style.height = "0rem";
-        body.style.overflow = "auto";
-    }
-};
 var selfBtn = document.querySelector("#jf-self-btn");
 var selfNone = document.querySelector(".jf-header-self");
 var selfMeng = document.querySelector(".jf-mengban");
