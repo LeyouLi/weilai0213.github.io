@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>起点金服</title>
+	<link rel="stylesheet" href="../../static/styles/pc/reset.css" />
+	<link rel="stylesheet" href="../../static/styles/pc/header.css" />
+	<link rel="stylesheet" href="../../static/styles/pc/admin/tab.css" />
+</head>
+<body>
+	<!--菜单栏-->
+  	<header>
+  		<div>
+	  		<a href="index.html" class="logo">
+	  			<img src="../../static/images/pc/home/logo_up.png" />
+	  		</a>
+			<!--登录区域-->
+	  		<div class="register-box">
+	  			<a href="login.html" class="login">登录</a>
+	  			<span>|</span>
+	  			<a href="" class="register_mobile">注册</a>
+	  			<a href="" style="display: none">注销</a>
+		    </div>
+			<!--导航-->
+		    <ul class="nav">
+		        <li><a href="index.html">首页<span>/</span></a></li>
+		        <li><a href="tab.html">个人中心<span>/</span></a></li>
+		        <li><a href="#">区块数据<span>/</span></a></li>
+		        <li><a href="#">关注我们<span>/</span></a></li>
+		    </ul>
+  		</div>
+  	</header>
+
+  	<div class="tab clearfix">
+  		<ul class="tab-header">
+  			<li>用户中心</li>
+  			<li class="active"><i class="icon icon-wallet"></i>我的钱包</li>
+  			<li><i class="icon icon-center"></i>安全中心</li>
+  			<li><i class="icon icon-fans"></i>我的粉丝</li>
+  			<li><i class="icon icon-coin"></i>转币</li>
+  			<li><i class="icon icon-coin-in"></i>冲币</li>
+  			<li><i class="icon icon-coin-out"></i>提币</li>
+  			<li><i class="icon icon-id"></i>身份验证</li>
+  			<li><i class="icon icon-rmb"></i>人民币充值</li>
+  		</ul>
+      
+      <!--我的钱包-->
+     <!--<div class="tab-cont">
+       <div class="coin-type">
+         <div class="tit">
+           <div>币种</div>
+           <div>数量</div>
+           <div>操作</div>
+         </div>
+         <ul>
+           <li>
+             <div>比特币</div>
+             <div class="color">1.233</div>
+             <div class="action">
+                 <div>充币</div>
+                 <div>提币</div>
+                 <div>转币</div>
+             </div>
+           </li>
+           <li>
+             <div>莱特币</div>
+             <div class="color">1.233</div>
+             <div class="action">
+                 <div>充币</div>
+                 <div>提币</div>
+                 <div>转币</div>
+             </div>
+           </li>
+         </ul>
+       </div>
+       <div class="record">
+         <h1>我的记录</h1>
+         <ul>
+           <li>
+             <div>ID</div>
+             <div>转入/转出地址</div>
+             <div>数量</div>
+             <div>时间</div>
+             <div>状态</div>
+           </li>
+            <li>
+             <div>STS031</div>
+             <div>http://www.baidu.com</div>
+             <div class="color">-2000</div>
+             <div>2017-08-29 15:20</div>
+             <div>完成</div>
+           </li>
+          <li>
+             <div>STS031</div>
+             <div>http://www.baidu.com</div>
+             <div class="color">+3000</div>
+             <div>2017-08-29 15:20</div>
+             <div>完成</div>
+           </li>
+         </ul>
+         <p>没有更多了</p>
+       </div>
+     </div> -->
+
+      <!--安全中心-->
+  		<div class="tab-cont">
+        <h1>个人信息</h1>
+        <ul>
+          <li class="clearfix">
+            <div class="tit">手机号码&nbsp;:</div>
+            <p><span>已绑定</span></p>
+          </li>
+          <li class="clearfix">
+            <div class="tit">登陆密码&nbsp;:</div>
+            <p><span>已设置</span></p>
+            <div class="edit">编辑</div>
+            <div class="edit-box">
+              <div class="edit-inner">
+                <p>修改登录密码</p>
+                <div class="input-box">
+                  <input type="password" placeholder="请输入密码" class="pass" />
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="请输入图片验证码" />
+                  <img src="" />
+                    </div>                
+                    <div class="input-box">
+                  <input type="text" placeholder="请输入验证码" />
+                  <a href="">发送验证码</a>
+                </div>
+                    <div class="btn-box">
+                      <a href="" class="active">确认</a>
+                      <a href="">取消</a>
+                    </div>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div class="tit">交易密码&nbsp;:</div>
+            <p><span>已设置</span></p>
+            <div class="edit">编辑</div>
+            <div class="edit-box">
+              <div class="edit-inner">
+                <p>修改交易密码</p>
+                <div class="input-box">
+                  <input type="password" placeholder="请输入密码" class="pass" />
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="请输入图片验证码" />
+                  <img src="" />
+                    </div>                
+                    <div class="input-box">
+                  <input type="text" placeholder="请输入验证码" />
+                  <a href="">发送验证码</a>
+                </div>
+                    <div class="btn-box">
+                      <a href="" class="active">确认</a>
+                      <a href="">取消</a>
+                    </div>
+              </div>
+            </div>
+          </li>
+          <li class="clearfix">
+            <div class="tit">真实姓名&nbsp;:</div>
+            <p>此项为必填项，必须填写个人真实姓名</p>
+           <!--  <div class="edit">编辑</div>
+           <div class="edit-box">
+             <div class="edit-inner">
+               <p></p>
+             </div>
+           </div> -->
+          </li>
+          <li class="clearfix">
+            <div class="tit">身份证号&nbsp;:</div>
+            <p>此项为必填项，必须填写个人真实身份证号</p>
+            <!-- <div class="edit">编辑</div>
+                  
+            <div class="edit-box">
+              <div class="edit-inner">
+                <p></p>
+              </div>
+            </div> -->
+          </li>
+        </ul>
+      </div>
+      <!--我的粉丝-->
+      <!-- <div class="tab-cont">
+        <div class="fans clearfix">
+          <div class="fans-pic"><img src="../../static/images/pc/admin/fans/qrcode.png" /></div>
+          <div class="fans-info">
+            <p>ID：LY321</p>
+            <div>钱包地址：<span>http://www.liyao.vip<span><a href="">复制</a></div>
+          </div>
+         
+        </div>
+        <div class="record">
+         <h1>我的粉丝</h1>
+         <ul>
+            <li>
+             <div>姓名</div>
+             <div>账号</div>
+             <div>ID</div>
+             <div>注册时间</div>
+            </li>
+            <li>
+             <div>李东风</div>
+             <div>http://www.baidu.com</div>
+             <div>STS301</div>
+             <div>2017-08-29 15:20</div>
+            </li>
+            <li>
+             <div>李东风</div>
+             <div>http://www.baidu.com</div>
+             <div>STS301</div>
+             <div>2017-08-29 15:20</div>
+           </li>
+         </ul>
+         <p>没有更多了</p>
+       </div>
+      </div> -->
+      
+      <!--转币&提币-->
+      <!-- <div class="tab-cont">
+        <div class="coin-change clearfix">
+          <div class="total-price">账户余额：<span>1.3356</span></div>
+          <div class="dropdown">
+            <div class="dropdown-tit">比特币 BTC</div>
+            <ul class="dropdown-cont">
+              <span></span>
+              <li>智信链 ITC</li>
+              <li class="active">莱特币 LTC</li>
+              <li>比特币 BTC</li>
+              <li>以太坊</li>
+            </ul>
+          </div>
+          
+          <div class="input-box">
+            <div><span>转出地址：</span><input type="text" /></div>
+            <div><span>转出数量：</span><input type="text" /><p>转出数量不能大于200</p></div>
+            <div><span>交易密码：</span><input type="password" /><p></p></div>
+            <div><span>手机验证码：</span><input type="text" class="short-input" /><a href="">重新发送</a></div>
+          </div>
+          <a href="" class="button active">确认转出</a>
+          <dl class="explain">
+            <dt>转出说明：</dt>
+            <dd>1.我是转出说明</dd>
+            <dd>2.我是转出说明，我是转出说明</dd>
+            <dd>3.我是转出说明，我是转出说明，我是转出说明</dd>
+          </dl>
+        </div>
+      
+        <div class="record">
+         <h1>我的记录</h1>
+         <ul>
+            <li>
+             <div>ID</div>
+             <div>转出地址</div>
+             <div>数量</div>
+             <div>时间</div>
+             <div>状态</div>
+            </li>
+            <li>
+             <div>STS031</div>
+             <div>http://liyao.vip</div>
+             <div class="color">1.2345</div>
+             <div>2017-08-29 15:30</div>
+             <div class="unfinish">处理中... ...</div>
+            </li>
+            <li>
+             <div>STS031</div>
+             <div>http://liyao.vip</div>
+             <div class="color">1.2345</div>
+             <div>2017-08-29 15:30</div>
+             <div>完成</div>
+           </li>
+         </ul>
+         <p>没有更多了</p>
+       </div>
+      </div> -->
+
+
+      <!--充币-->
+     <!-- <div class="tab-cont">
+        <div class="coin-change clearfix">
+          <div class="total-price">账户余额：<span>1.3356</span></div>
+          <div class="dropdown">
+            <div class="dropdown-tit">比特币 BTC</div>
+            <ul class="dropdown-cont">
+              <span></span>
+              <li>智信链 ITC</li>
+              <li class="active">莱特币 LTC</li>
+              <li>比特币 BTC</li>
+              <li>以太坊</li>
+            </ul>
+          </div>
+     
+          <div class="wallet-address clearfix">
+            <div class="wallet-code">
+              <img src="../../static/images/pc/admin/fans/qrcode.png" />
+            </div>
+            <div>
+              <p>钱包地址：</p>
+              <div class="wallet-info">http://www.liyao.vip</div>
+            </div>
+          </div>
+          <dl class="explain">
+            <dt>转出说明：</dt>
+            <dd>1.我是转出说明</dd>
+            <dd>2.我是转出说明，我是转出说明</dd>
+            <dd>3.我是转出说明，我是转出说明，我是转出说明</dd>
+          </dl>
+        </div>
+      
+        <div class="record">
+         <h1>我的记录</h1>
+         <ul>
+            <li>
+             <div>ID</div>
+             <div>转出地址</div>
+             <div>数量</div>
+             <div>时间</div>
+             <div>状态</div>
+            </li>
+            <li>
+             <div>STS031</div>
+             <div>http://liyao.vip</div>
+             <div class="color">1.2345</div>
+             <div>2017-08-29 15:30</div>
+             <div class="unfinish">处理中... ...</div>
+            </li>
+            <li>
+             <div>STS031</div>
+             <div>http://liyao.vip</div>
+             <div class="color">1.2345</div>
+             <div>2017-08-29 15:30</div>
+             <div>完成</div>
+           </li>
+         </ul>
+         <p>没有更多了</p>
+       </div>
+      </div> -->
+
+      <!--身份验证-->
+      <!-- <div class="tab-cont">
+        <div class="identify-box">
+          <ul>
+            <li><img src="" /></li>
+            <li><img src="" /></li>
+            <li><img src="" /></li>
+          </ul>
+          <div class="identify-form">
+            <form>
+              <div class="input-div">
+                <span>身份证号码：</span>
+                <input type="text" />
+              </div>
+              <div class="input-div">
+                <span>真实姓名：</span>
+                <input type="text" />
+              </div>
+              <div class="input-div">
+                <span>交易密码：</span>
+                <input type="password" />
+              </div>
+            </form>
+            <div class="input-info">
+              <p>手持身份证照片要求：左手持身份证照片，右手手持写有当天日期纸条的照片</p>
+              <div>证件必须是清晰彩色原件电子版，证件上文字清晰可见，可以是扫描件或者数码拍摄照片。</div>
+              <div>请上传后缀名为jpg  jpeg png的照片，照片最大尺寸为2M</div>
+              <div>因为现在提交身份证照片审核的较多，预计需要一至三个工作日审核完成。</div>
+            </div>
+          </div>
+          <a href="" class="button short-btn">确认提交</a>
+        </div>
+      </div> -->
+
+      <!--人民币充值-->
+     <!--  <div class="tab-cont">
+       <div class="rmb-box">
+         <p>钱包地址：<span>http://www.liyao.vip</span></p>
+         <p>充值金额：<input type="text" placeholder="请输入充值金额" /></p>
+         <a href="" class="button short-btn">确定充值</a>
+       </div>
+       <div class="popover">
+         <dl class="popover-inner">
+           <dt>确定充值</dt>
+           <dd class="clearfix">
+             <div class="recharge">
+               <p>支付宝账号：<span>12345879@qq.com</span></p>
+               <p>支付宝合约：<span>123456789</span></p>
+                <p>备注：<span class="red">12345879@qq.com</span></p>
+               <p>金额：<span class="red">123456789</span></p>
+             </div>
+             <div class="payment-code">
+               <img src="" />
+               <p>手机扫描二维码支付</p>
+             </div>
+           </dd>
+         </dl>
+       </div>
+       <div class="record">
+        <h1>充值记录</h1>
+        <ul>
+           <li>
+            <div>充值金额</div>
+            <div>充值时间</div>
+            <div>状态</div>
+           </li>
+           <li>
+            <div>1.2345</div>
+            <div>2017-08-29 15:30</div>
+            <div class="unfinish">处理中... ...</div>
+           </li>
+           <li>
+            <div>1.2345</div>
+            <div>2017-08-29 15:30</div>
+            <div>完成</div>
+          </li>
+        </ul>
+        <p>没有更多了</p>
+      </div>
+     </div> -->
+  	</div>
+	<!--底部-->
+  	<footer>
+		<div class="menu">
+			<a href="">首页</a>
+			<span>|</span>
+			<a href="">兑换中心</a>
+			<span>|</span>
+			<a href="">区块数据</a>
+			<span>|</span>
+			<a href="">用户中心</a>
+		</div>
+		<div class="footer">
+			<div class="main clearfix">
+				<div class="right">
+					<p>联系方式: 0755-751091443 &nbsp;&nbsp;   传真：0731-85568844</p>
+					<p>公司地址: 深圳市罗湖区黄贝岭村瑞思国际商务中心23楼01号</p>
+					<div>Copyright &copy; 2017 www.qidianjinfu.vip  深圳市起点金服网络科技有限公司  版权所有</div>
+				</div>
+				<div class="foot-logo">
+					<img src="../../static/images/pc/home/logo_down.png" />
+				</div>
+			</div>
+		</div>
+	</footer>	
+</body>
+</html>

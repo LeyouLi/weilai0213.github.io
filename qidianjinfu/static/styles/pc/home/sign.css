@@ -1,0 +1,196 @@
+@charset "utf-8";
+.container{
+	text-align: center;
+	padding-top: 64px;
+	width: 100%;
+	height: 870px;
+	background: url(../../../images/pc/home/bg.png) no-repeat center center;
+}
+.container > span{
+	display: block;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	font-size: 24px;
+	text-align: center;
+	color: #333;
+	margin: 0 auto;	
+}
+.container > span.login{
+	width: 54px;
+	background:url(../../../images/pc/home/key.png) no-repeat;
+}
+.container > span.registered {
+    width: 70px;
+    background: url(../../../images/pc/home/registered.png) no-repeat;
+}
+.container form{
+	width:372px;
+	margin: 0 auto;
+}
+.container form input{
+	padding-left: 65px;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 14px;
+	background-color: #fff;
+	-webkit-box-shadow:3px 3px 1px #808080;  
+  	-moz-box-shadow:3px 3px 1px #808080;   
+  	box-shadow:3px 3px 1px #808080;   
+}
+
+input.user{
+	background: url(../../../images/pc/home/user.png) no-repeat 20px center;
+}
+input.password{
+	background: url(../../../images/pc/home/../../../images/pc/home/psw.png) no-repeat 20px center;
+}
+.container form input::-webkit-input-placeholder { /* WebKit browsers */
+　　font-size: 14px;
+	color: #999;
+}
+.container form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　font-size: 14px;
+	color:#999;
+}
+.container form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　font-size: 14px;
+	color:#999;
+}
+.container form input:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　font-size: 14px;
+	color:#999;
+}
+.forget{
+	float:left;
+	vertical-align: middle;
+	margin: 20px 0;
+	color: rgb(153, 153, 153);
+	font-size: 14px;
+}
+.link{
+	float: right;
+	color: #d80e0e;
+	font-size: 14px;
+	text-align: right;
+	width: auto;
+	margin: 20px auto;
+	font-size: 14px;
+}
+.link > a{
+	color: rgb(153, 153, 153);
+}
+.btn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #ccc;
+	margin: 0 auto;
+	color: #fff;
+	-webkit-box-shadow:3px 3px 1px #808080;  
+  	-moz-box-shadow:3px 3px 1px #808080;   
+  	box-shadow:3px 3px 1px #808080;   
+}
+.btn.active{
+	background: #68b5da;
+}
+
+
+
+input.mobile{
+	padding-right: 100px;
+	background: url(../../../images/pc/home/phone.png) no-repeat 20px center;
+	background-color: #fff;
+}
+input#emailInput{
+	padding-right: 100px;
+	background: url(../../../images/pc/home/email.png) no-repeat 20px center;
+	background-color: #fff;
+}
+input.code{
+	padding-right: 100px;
+	background: url(../../../images/pc/home/pic.png) no-repeat 20px center;
+}
+input.mobile-code{
+	padding-right: 100px;
+	background: url(../../../images/pc/home/veri-code.png) no-repeat 20px center;
+}
+.change-box{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+.change-box button,
+.change-box a{
+	font-size: 14px;
+	color: #333;
+	position: absolute;
+	top:0;
+	height: 50px;
+	line-height: 50px;
+	right: 0;
+	width: 100px;
+	border:0;
+	background: #fff;
+	cursor: pointer;
+	outline:none;
+}
+.change-box img{
+	position: absolute;
+	border: 0;
+}
+.change-box span{
+	position: absolute;
+	white-space: nowrap;
+	left: 380px;
+	top: 16px;
+}
+.change-box span.success{
+	color: green;
+}
+.change-box span.error{
+	color: red;
+}
+.change-box img,.change-box a.bg{
+	top:0;
+	right: 0;
+	width: 110px;
+	height: 50px;
+	line-height: 50px;
+}
+.protocol-box{
+	padding-left: 50px;
+	line-height: 30px;
+	font-size:14px;
+	color:#333;
+	width: 100%;
+	text-align: left;
+	background: url(../../../images/pc/home/unchecked.png) no-repeat 25px center;
+}
+.protocol-box.active{
+	background: url(../../../images/pc/home/check.png) no-repeat 25px center;
+}
+.protocol-box a{
+	color:#02abef
+}
+
+.back-link{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 80px;
+}
+.back-link > a{
+	color: #006cc8;
+	margin-top: 10px;
+	font-size: 14px;
+	border-bottom: 1px solid #006cc8
+}
+.login-link{
+	float: left;
+}
+.register-link{
+	float: right;
+}

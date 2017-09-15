@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>起点金服-注册</title>
+	<link rel="stylesheet" href="../../static/styles/pc/reset.css" />
+	<link rel="stylesheet" href="../../static/styles/pc/header.css" />
+	<link rel="stylesheet" href="../../static/styles/pc/home/sign.css" />
+</head>
+<body>
+	<!--菜单栏-->
+  	<header>
+  		<div>
+	  		<a href="#" class="logo">
+	  			<img src="../../static/images/pc/home/logo_up.png" />
+	  		</a>
+			<!--登录区域-->
+	  		<div class="register-box">
+	  			<a href="login.html" class="login">登录</a>
+	  			<span>|</span>
+	  			<a href="" class="register_mobile">注册</a>
+	  			<a href="" style="display: none">注销</a>
+		    </div>
+			<!--导航-->
+		    <ul class="nav">
+		        <li><a href="index.html">首页<span>/</span></a></li>
+		        <li><a href="tab.html">个人中心<span>/</span></a></li>
+		        <li><a href="#">区块数据<span>/</span></a></li>
+		        <li><a href="#">关注我们<span>/</span></a></li>
+		    </ul>
+  		</div>
+  	</header>
+
+  	
+	<div class="container">
+		<span class="registered">注册</span>
+		<form>
+			<div class="change-box change">
+				<input type="text" placeholder="请输入手机号码" class="mobile" id="mobileInput">
+				<!-- <a class="registration" data-type="email">使用邮箱注册</a> -->
+				<span></span>
+			</div>
+			<!-- <div class="change-box change hide">
+				<input type="text" placeholder="请输入邮箱地址" class="mobile" id="emailInput" value="928200407@qq.com">
+				<a class="registration" data-type="phone">使用手机注册</a>
+				<span></span>
+			</div> -->
+			<div class="change-box">
+				<input id="passwordInput1" type="password" placeholder="登录密码" class="password">
+				<span></span>
+			</div>
+			<div class="change-box">
+				<input id="passwordInput2" type="password" placeholder="再次输入登录密码" class="password">
+				<span></span>
+			</div>
+			<div class="change-box">
+				<input id="icodeInput" type="text" placeholder="请输入图片验证码" class="code">
+				<img id="icodeImg" src="/icode.html">
+				<span></span>
+			</div>
+			<div class="change-box change">
+				<input id="scodeInput" type="text" placeholder="请输入短信验证码" class="mobile-code">
+				<a class="bg countDown" id="scodeBtn">获取短信验证码</a>
+				<span></span>
+			</div>
+			<!-- <div class="change-box change hide">
+				<input id="ecodeInput" type="text" placeholder="请输入邮件验证码" class="mobile-code">
+				<a class="bg countDown" id="ecodeBtn">获取邮件验证码</a>
+				<span></span>
+			</div> -->
+			<div class="protocol-box active">阅读并接受<a target="_blank" href="http://www.qidianjinfu.vip/protocol.html">《起点金服服务协议》</a></div>
+			<a class="btn" id="submitBtn">确定</a>
+			<p class="link">已有账号？<a href="login.html">登录</a></p>
+		</form>
+	</div>
+</body>
+</html>

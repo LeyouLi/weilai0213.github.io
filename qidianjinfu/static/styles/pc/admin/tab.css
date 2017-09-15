@@ -1,0 +1,230 @@
+@charset "utf-8";
+html,body{
+	background: #f6f6f6;
+	height: 100%;
+}
+.tab{
+	width: 1000px;
+	margin: 20px auto 0;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+    min-height: calc(100% - 351px);
+}
+.tab-header{
+	width: 214px;
+	background: #90a7ce;
+	border-left: 1px solid #90a7ce;
+	/* float: left; */
+}
+.tab-header > li{
+	position: relative;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #121212;
+	font-size: 16px;
+	border-bottom: 1px solid #90a7ce;
+	background: #fff;
+}
+.tab-header > li:nth-of-type(1){
+	background: #90a7ce;
+	color: #fff;
+	font-size: 20px;
+}
+.tab-header > li.active{
+	background: #345181;
+	color: #fff;
+}
+.icon{
+	width: 16px;
+	height: 18px;
+	display: inline-block;
+	position: absolute;
+    top: 15px;
+    left: 45px;
+	vertical-align: middle;
+	background: url(../../../images/pc/admin/safe-center/icon.png) no-repeat;
+}
+.icon-wallet{
+	background-position: -5px -5px;
+}
+.active .icon-wallet{
+	background-position: -5px -26px;
+}
+.icon-center{
+	background-position: -5px -406px
+}
+.active .icon-center{
+	background-position: -5px -378px;
+}
+.icon-fans{
+	background-position: -5px -224px;
+}
+.active .icon-fans{
+	background-position: -5px -249px;
+}
+.icon-coin-in{
+	background-position: -5px -274px;
+}
+.active .icon-coin-in{
+	background-position: -5px -326px;
+}
+.icon-coin{
+	background-position: -5px -68px;
+	top: 18px;
+}
+.active .icon-coin{
+	background-position: -5px -47px
+}
+.icon-coin-out{
+	background-position: -5px -352px
+}
+.active .icon-coin-out{
+	background-position: -5px -300px
+}
+.icon-id{
+	background-position: -5px -200px
+}
+.active .icon-id{
+	background-position: -5px -176px
+}
+.icon-rmb{
+	background-position: -5px -454px;
+}
+.active .icon-rmb{
+	background-position: -5px -431px
+}
+.tab-cont{
+	/* float: right; */
+	width: 775px;
+	padding: 25px 25px 85px;
+	background: #fff;
+	margin-left: 15px;
+}
+.tab-cont > h1{
+	font-size: 20px;
+	padding-left: 15px;
+	font-weight: normal;
+	line-height: 50px;
+	border-bottom: 20px solid #f6f6f6;
+}
+.tab-cont li{
+	/* height: 50px; */
+	line-height: 30px;
+	color: #848484;
+	padding-left: 19px;
+	border-bottom: 20px solid #f6f6f6;
+}
+.tab-cont .tit{
+	display: inline-block;
+	font-size: 14px;
+	padding-right: 55px;
+}
+.tab-cont p{
+	display: inline-block;
+	font-size: 12px;
+}
+.tab-cont span{
+	padding-right: 24px;
+	color: #848484;
+}
+.tab-cont span.unset{
+	color: #fe0000;
+}
+.edit{
+	float: right;
+	height: 30px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.edit:after{
+	content: '';
+	display: inline-block;
+	margin-right: 25px;
+	width: 25px;
+	height: 17px;
+	margin-top: 2px;
+	background: url(../../../images/pc/admin/safe-center/icon.png) no-repeat 0 -103px;
+}
+
+.edit-box{
+	border-top: 1px dashed #959595;
+	padding-top: 10px;
+}
+.edit-inner{
+	border: 1px solid #959595;
+	padding: 22px 0 46px 90px;
+	margin-bottom: 18px;
+}
+.edit-inner > p{
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.input-box{
+	position: relative;
+	margin-bottom: 20px;
+	width: 210px;
+}
+.input-box > input{
+	line-height: 30px;
+	width: 210px;
+	border: 1px solid #dedede;
+	outline: none;
+	padding-left: 8px;
+	padding-right: 80px;
+}
+.input-box > .pass{
+	padding-right: 0;
+}
+.input-box > a,.input-box > img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 32px;
+	width: 75px;
+}
+.input-box > a{
+	
+	background: #5a6981;
+	color: #fff;
+	font-size: 12px;
+	text-align:center;
+}
+/* 使用webkit内核的浏览器 */
+.input-box > input::-webkit-input-placeholder{
+  color:#bebebe;
+  font-size: 12px;
+}
+/* Firefox版本4-18 */
+.input-box > input:-moz-placeholder{
+  color:#bebebe;
+  font-size: 12px;
+}
+/* Firefox版本19+ */
+.input-box > input::-moz-placeholder{
+  color:#bebebe;
+  font-size: 12px;
+}
+/* IE浏览器 */
+.input-box > input:-ms-input-placeholder{
+  color:#bebebe;
+  font-size: 12px;
+}
+.btn-box > a{
+	display: inline-block;
+	width: 74px;
+	height: 30px;
+	margin-right: 4px;
+	text-align: center;
+	font-size: 12px;
+	color: #5e8ede;
+	border: 1px solid #5e8ede;
+}
+.btn-box > a.active{
+	background: #5e8ede;
+	color: #fff;
+}

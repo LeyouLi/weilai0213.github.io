@@ -5,59 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>起点金服</title>
-	<link rel="stylesheet" href="../../static/styles/reset.css" />
-	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="../../static/styles/index.css" />
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	
+	<link rel="stylesheet" href="../../static/styles/pc/reset.css" />
+	<link rel="stylesheet" href="../../static/styles/pc/home/index.css" />
 </head>
 <body>
 	<div class="banner" id="banner">
+		<!---->
 		<div class="banner-item">
-			<a><img src="../../static/images/pc/home/banner.png" /></a>
+			<a><img src="../../static/images/pc/home/banner.jpg" /></a>
+		</div>
+		<div class="banner-item">
+			<a><img src="../../static/images/pc/home/banner2.jpg" /></a>
+		</div>
+		<div class="banner-item">
+			<a><img src="../../static/images/pc/home/banner3.jpg" /></a>
 		</div>
 		<!--轮播图计数点-->
 		<div class="banner_dl_room">
 	    	<div id="banner_dl">
-	    		<a href="javascript:void(0)" class="cur"></a>
+	    		<!-- <a href="javascript:void(0)" class="cur"></a> -->
 	    	</div>
 	  	</div>
 
 	  	<!--菜单栏-->
 	  	<header>
-	  		<a href="#" class="logo">
-	  			<!-- <img src="../static/images/pc/home/logo_up.png" /> -->
-	  			<img src="../../static/images/mobile/home/logo_up.png" />
+	  		<a href="index.html" class="logo">
+	  			<img src="../../static/images/pc/home/logo_up.png" />
 	  		</a>
-	  		<button class="navbar-toggle" data-toggle="collapse"
-				data-target="#navbar">
-	  			<span class="sr-only">Toggle navigation</span>
-	  			<span class="icon-bar"></span>
-	  			<span class="icon-bar"></span>
-	  			<span class="icon-bar"></span>
-	  		</button>
-
+			<!--登录区域-->
 	  		<div class="register-box">
-	  			<a href="" class="login">登录</a>
+	  			<a href="login.html" class="login">登录</a>
 	  			<span>|</span>
 	  			<a href="" class="register_mobile">注册</a>
 	  			<a href="" style="display: none">注销</a>
 		    </div>
-
-	  		<div class="collapse navbar-collapse" id="navbar">
-		      <ul class="nav navbar-nav">
-		        <li><a href="#">首页<span class="sr-only">(current)</span><span>/</span></a></li>
-		        <li><a href="#">个人中心<span>/</span></a></li>
+			<!--导航-->
+		    <ul class="nav">
+		        <li><a href="index.html">首页<span>/</span></a></li>
+		        <li><a href="tab.html">个人中心<span>/</span></a></li>
 		        <li><a href="#">区块数据<span>/</span></a></li>
 		        <li><a href="#">关注我们<span>/</span></a></li>
-		      </ul>
-		    </div>
+		    </ul>
 		   
 	  		<!-- <div id="navbar" class="navbar-collapse collapse in">
 	  				  		<ul class="menu">
@@ -73,25 +61,200 @@
 	  				  			</li>
 	  				  		</ul>
 	  		</div> -->
-	  	</header>
-
-	  	<!--登录框-->
-	  	<div class="login-box">
-	  		<p>登录起点金服</p>
-	  		<input type="text" placeholder="手机号码或者用户名" />
-	  		<input type="password" placeholder="输入密码">
-	  		<div class="link-box clearfix">
-	  			<a href="" class="register">没有帐号，去注册</a>
-	  			<a href="" class="forget">忘记密码?</a>
+	  		<div class="login-box">
+		  		<p>登录起点金服</p>
+		  		<input type="text" placeholder="手机号码或者用户名" />
+		  		<input type="password" placeholder="输入密码">
+		  		<div class="link-box clearfix">
+		  			<a href="" class="register">没有帐号，去注册</a>
+		  			<a href="" class="forget">忘记密码?</a>
+		  		</div>
+		  		
+		  		<div class="button">登录</div>
 	  		</div>
-	  		
-	  		<div class="button">登录</div>
-	  	</div>
+	  	</header>
+	  	
 	</div>
-<script src="../../static/scripts/jquery.js"></script>
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="../../static/scripts/index.js"></script>
-<script src="../../static/scripts/banner.js"></script>
+	
+	<!--关于我们-->
+	<div class="about-us">
+		<div class="title">
+			<p>关于我们</p>
+			<div><span>ABOUT</span></div>
+		</div>
+		<dl class="clearfix">
+			<dt></dt>
+			<dd>
+				<p>深圳市鑫通宝区块链技术有限公司（以下简称鑫通宝）成立于2017年7月，主要为广大消费者提供比特币、莱特币、以太坊、科技币等数字资产实时交易服务。鑫通宝旗下运营的云链网，是一个专业链接数字资产的服务平台，平台的定位是“全数字资产云服务专家”，我们致力于为消费者搭建更多数字资产服务板块，其中包括：数字货币交易、新币上市ICO、行业资讯推送、数字货币开发、交易系统开发、矿机系统支持等多项服务。</p>
+				<p>鑫通宝核心团队均来自于腾讯、阿里、IBM、百度等全球知名企业，部分技术骨干曾参与过全球最大的数字货币比特币的底层区块链技术开发。未来，公司将秉承“多元化、智能化、专业化”的核心价值，不断为消费者提供更具价值的数字资产服务。</p>
+			</dd>
+		</dl>
+	</div>
+
+	<!--产品优势-->
+	<div class="product-advantage">
+		<div class="title title-inverse">
+			<p>产品优势</p>
+			<div><span>ADVANTAGE</span></div>
+		</div>
+		<ul>
+			<li>
+				<img src="../../static/images/pc/home/jinfu.png" />
+				<p>起点金服</p>
+				<span>相同的服务，不同的体验</span>
+			</li>
+			<li>
+				<img src="../../static/images/pc/home/advantage.png" />
+				<p>平台优势</p>
+				<span>不同的视线，相同的选择</span>
+			</li>
+			<li>
+				<img src="../../static/images/pc/home/safe.png" />
+				<p>安全保障</p>
+				<span>我们用心，你们放心</span>
+			</li>
+			<li>
+				<img src="../../static/images/pc/home/quick.png" />
+				<p>快捷交易</p>
+				<span>更快、更高、更强、更安全</span>
+			</li>
+		</ul>
+	</div>
+
+	<!--新闻列表-->
+	<div>
+		<div class="title">
+			<p>新闻列表</p>
+			<div><span>NEWS</span></div>
+		</div>
+		<ul class="news-list">
+			<li class="clearfix">
+				<div class="news-pic">
+					<img src="../../static/images/pc/home/news.png" />
+				</div>
+				<div class="news-cont">
+					<h5>智信链正式上线</h5>
+					<span>2017-08-19</span>
+					<p>新浪、网易、腾讯等新闻正式发布，各大平台均可正式购买，没有门槛，随意... ......<a href="">[详细>>]</a></p>
+				</div>
+			</li>
+			<li class="clearfix">
+				<div class="news-pic">
+					<img src="../../static/images/pc/home/news.png" />
+				</div>
+				<div class="news-cont">
+					<h5>智信链正式上线</h5>
+					<span>2017-08-19</span>
+					<p>新浪、网易、腾讯等新闻正式发布，各大平台均可正式购买，没有门槛，随意... ......<a href="">[详细>>]</a></p>
+				</div>
+			</li>
+			<li class="clearfix">
+				<div class="news-pic">
+					<img src="../../static/images/pc/home/news.png" />
+				</div>
+				<div class="news-cont">
+					<h5>智信链正式上线</h5>
+					<span>2017-08-19</span>
+					<p>新浪、网易、腾讯等新闻正式发布，各大平台均可正式购买，没有门槛，随意... ......<a href="">[详细>>]</a></p>
+				</div>
+			</li>
+			<li class="clearfix">
+				<div class="news-pic">
+					<img src="../../static/images/pc/home/news.png" />
+				</div>
+				<div class="news-cont">
+					<h5>智信链正式上线</h5>
+					<span>2017-08-19</span>
+					<p>新浪、网易、腾讯等新闻正式发布，各大平台均可正式购买，没有门槛，随意... ......<a href="">[详细>>]</a></p>
+				</div>
+			</li>
+		</ul>	
+	</div>
+
+	<!--合作伙伴-->
+	<div class="partner-list">
+		<div class="title title-inverse">
+			<p>合作伙伴</p>
+			<div><span>TEAM</span></div>
+		</div>
+		<ul>
+			<li>
+				<a href=""><img src="../../static/images/pc/home/1.png" /></a>
+			</li>
+			<li>
+				<a href=""><img src="../../static/images/pc/home/2.png" /></a>
+			</li>
+			<li>
+				<a href=""><img src="../../static/images/pc/home/3.png" /></a>
+			</li>
+			<li>
+				<a href=""><img src="../../static/images/pc/home/4.png" /></a>
+			</li>
+			<li>
+				<a href=""><img src="../../static/images/pc/home/5.png" /></a>
+			</li>
+			<li>
+				<a href=""><img src="../../static/images/pc/home/6.png" /></a>
+			</li>
+		</ul>
+	</div>
+
+	<!--关注我们-->
+	<div class="about-us">
+		<div class="title">
+			<p>关注我们</p>
+			<div><span>FOLLOW</span></div>
+		</div>
+		<div class="official-accounts clearfix">
+			<div class="webchat">
+				<img src="../../static/images/pc/home/webchat.png" class="icon" />
+				<p>微信公众号</p>
+				<div>起点金服VIP</div>
+				<img src="../../static/images/pc/home/code.jpg"  class="qrcode"/>
+			</div>
+			<div class="sina">
+				<img src="../../static/images/pc/home/blog.png" class="icon" />
+				<p>微博公众号</p>
+				<div>起点金服VIP</div>
+				<img src="../../static/images/pc/home/code.jpg" class="qrcode" />
+			</div>
+		</div>
+
+		<div class="text">
+			<div>经营范围： 电子产品及元器件、通讯设备及数码产品的开发与销售；动漫产品、游戏产品及虚拟产品开发销售；商品信息咨询从事电子商务
+（依法须经批准的项目，经相关部门批准后方可开展经营活动）；区块链技术及积分系统技术开发与应用等			</div>
+			<p>
+				电子产品及元器件、通讯设备及数码产品的开发与销售；动漫产品、游戏产品及虚拟产品开发销售；商品信息咨询从事电子商务
+（依法须经批准的项目，经相关部门批准后方可开展经营活动）；区块链技术及积分系统技术开发与应用等
+			</p>
+		</div>
+	</div>
+
+	<footer>
+		<div class="menu">
+			<a href="">首页</a>
+			<span>|</span>
+			<a href="">兑换中心</a>
+			<span>|</span>
+			<a href="">区块数据</a>
+			<span>|</span>
+			<a href="">用户中心</a>
+		</div>
+		<div class="footer">
+			<div class="main clearfix">
+				<div class="right">
+					<p>联系方式: 0755-751091443 &nbsp;&nbsp;   传真：0731-85568844</p>
+					<p>公司地址: 深圳市罗湖区黄贝岭村瑞思国际商务中心23楼01号</p>
+					<div>Copyright &copy; 2017 www.qidianjinfu.vip  深圳市起点金服网络科技有限公司  版权所有</div>
+				</div>
+				<div class="foot-logo">
+					<img src="../../static/images/pc/home/logo_down.png" />
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="../../static/scripts/pc/jquery.js"></script>	
+<script src="../../static/scripts/pc/index.js"></script>	
+<script src="../../static/scripts/pc/banner.js"></script>
 </body>
 </html>

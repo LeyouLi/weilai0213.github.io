@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*头部*/
+/*菜单栏*/
+header{
+  line-height: 100px;
+  height: 100px;
+  background: #252b35;
+}
+header > div{
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo{
+  vertical-align: middle;
+  padding-left: 32px;
+}
+.logo > img{
+  vertical-align: middle;
+}
+/*导航*/
+.nav{
+  float: right;
+  font-size: 0
+}
+.nav > li{
+  display: inline-block;
+  padding-left: 32px;
+  font-size: 14px;
+  color: #fff;
+}
+.nav > li > a{
+  color:#fff;
+  padding-left: 0;
+  padding-right: 0
+}
+.nav > li > a:hover,.nav > li > a:focus{
+  background-color: transparent;
+}
+.nav > li > a > span{
+  color:#fff;
+  padding-left: 32px;
+}
+.nav > li > .register_mobile{
+  display: none
+}
+
+/*登录区域*/
+.register-box{
+  float: right;
+}
+.register-box > a{
+  font-size: 14px;
+  color: #fff;
+}
+.register-box > .login{
+  padding: 0 32px;
+}
+.register-box > .register_mobile{
+  display: none;
+}
+.register-box  > span{
+  visibility: hidden;
+  color:#fff;
+}

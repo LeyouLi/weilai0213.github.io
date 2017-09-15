@@ -1,3 +1,4 @@
+@charset "utf-8";
 *{
 	padding: 0;
 	margin: 0;
@@ -16,9 +17,10 @@ img{
 ul,ol,li{
 	list-style: none;
 }
-.main{
-	width: 1200px;
-	margin: 0 auto;
+input{
+  background: none;
+  outline: none;
+  border: 0px;
 }
 .clearfix{
 	*zoom:1;
@@ -30,4 +32,44 @@ ul,ol,li{
 	height: 0;
 	font-size: 0;
 	clear: both;
+}
+
+/*足部*/
+.menu{
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  background: #03012e;
+}
+.menu > a{
+  color: #fff;
+}
+
+.footer{
+  background: #121035;
+}
+.main{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.right{
+  float: right;
+  width: 540px;
+  text-align: right;
+  color: #8e929a;
+  font-size: 12px;
+}
+.right > p{
+  line-height: 25px;
+}
+.right > div{
+  border-top: 1px solid #3b4657;
+  line-height: 40px;
+  margin-top: 10px;
+}
+.foot-logo{
+  padding-top: 20px;
 }

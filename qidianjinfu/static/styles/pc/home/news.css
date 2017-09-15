@@ -1,0 +1,30 @@
+@charset "utf-8";
+body{
+	background: #f6f6f6;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.container > h1{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #252b35;
+	background: #fff;
+	font-weight: normal;
+}
+.container > img{
+	display: inline-block;
+	height: 656px;
+	margin-bottom: 42px;
+}
+.container > div{
+	font-size: 12px;
+	color: #777;
+	margin-bottom: 42px;
+	text-indent: 24px;
+}
