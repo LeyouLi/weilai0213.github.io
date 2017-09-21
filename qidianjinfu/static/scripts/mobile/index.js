@@ -4,6 +4,7 @@ var headerBox = document.querySelector(".jf-header");
 var body = document.querySelector("body");
 var flag = false;
 headerBtn.onclick=function () {
+    alert(1)
     flag=!flag;
     if(flag){
         selfNone.style.height = "0rem";
