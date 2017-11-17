@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5,h6,pre,input,dd,ul,dt,dl,ol,figure,body,input,article{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+img{
+	border: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+input,a{
+	text-decoration: none;
+}
+
+/*媒体查询*/
+@media screen and (min-width: 320px){
+    html{ font-size: 29.63px}
+}
+@media screen and (min-width: 360px){
+    html{ font-size: 33.333px}
+}
+@media screen and (min-width:375px){
+    html{ font-size: 34.722px}
+}
+@media screen and (min-width:412px){
+    html{font-size: 38.148px;}
+}
+@media screen and (min-width:414px){
+    html{font-size: 38.333px;}
+}
+@media screen and (min-width:768px){
+    html{font-size: 71.111px;}
+}
+@media screen and (min-width:992px){
+    html{font-size: 91.852px;}
+}
+@media screen and (min-width:1080px){
+    html{font-size: 100px;}
+}
