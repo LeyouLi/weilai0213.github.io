@@ -6,14 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    margin-top: 1.9rem;
+    margin-top: 1.2rem;
 }
 .sign-box{
     width: 8.54rem;
     height: auto;
-    /*background: #f4f4f4;*/
     margin: 0 auto;
-    margin-top: 0.78rem;
+    margin-top: 0.58rem;
     box-sizing: border-box;
 }
 .telnum{
@@ -93,7 +92,7 @@
     line-height: 1.3rem;
     text-align: center;
     margin: 0 auto;
-    margin-top: 1.34rem;
+    margin-top: 1rem;
 }
 .signup-box:hover{
     background: #29B3CD;
