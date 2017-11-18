@@ -1,0 +1,95 @@
+header{
+	height: 1.4rem;
+	line-height: 1.4rem;
+	width: 100%;
+	/* background: url(../images/logo.png) no-repeat center center; */
+	background-color: #29b4ce;
+	/* background-size: contain; */
+	text-align: center;
+	color: #fff;
+	font-size: .52rem;
+}
+
+.banner{
+	height: 4.6rem;
+	width: 100%;
+	background: url(../images/banner.png) no-repeat center top;
+	background-size: contain;
+	color: #fff;
+	font-size: .24rem;
+	text-align: center;
+
+}
+.banner > img{
+	display: inline-block;
+	width: 1.62rem;
+	height: 1.62rem;
+	margin-top: .96rem;
+}
+.banner > p{
+	margin-top: .24rem;
+	margin-bottom: .32rem;
+}
+
+.list{
+	border-top: .3rem solid #ddd;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+.list > a > li{
+	position: relative;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	width: 8.6rem;
+	margin:0 auto;
+	border-bottom: 1px solid #999; 
+	padding: 0 .24rem 0 1.24rem;
+	font-size: .40rem;
+}
+.list > a{
+	color: #000;
+}
+.list > a > li:before{
+	position: absolute;
+	content: '';
+	background:url(../images/arrow.png) no-repeat center center;
+	background-size: contain;
+	width: .48rem;
+	height: .48rem;
+	right: .24rem;
+	top: .35rem;
+}
+.person-info{
+	background: url(../images/person.png) no-repeat .25rem center;
+	background-size: .64rem;
+}
+.rank{
+	background: url(../images/rank.png) no-repeat .25rem center;
+	background-size: .64rem;
+}
+.business{
+	background: url(../images/business.png) no-repeat .25rem center;
+	background-size: .64rem;
+}
+.list > a > .report{
+	background: url(../images/report.png) no-repeat .25rem center;
+	background-size: .64rem;
+	border-bottom: 0;
+}
+.spread{
+	background: url(../images/spread.png) no-repeat .25rem center;
+	background-size: .64rem;
+}
+.btn{
+	margin: 1.7rem auto 0;
+	width: 8.3rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	border-radius: .3rem;
+	background: #ff942e;
+	color: #fff;
+	font-size: .44rem;
+	display: block;
+	text-align: center;
+
+}

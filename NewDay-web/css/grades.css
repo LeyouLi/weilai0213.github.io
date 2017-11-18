@@ -1,0 +1,66 @@
+.header{
+    position: relative;
+}
+.gradesbox{
+    position: absolute;
+    top:0;
+    right: 0.2rem;
+    font-size: 0.3rem;
+    color: #fff;
+}
+.gradesbox>a{
+    color: #fff;
+}
+.bannerBox{
+    width: 100%;
+    height: 4.7rem;
+    background: url("../images/ly-bg.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    border-top: 1px solid #29B4CE;
+}
+.bannerBox>img{
+    position: absolute;
+    top:50%;left:50%;
+    margin-top: -1.33rem;
+    margin-left: -1.33rem;
+    width: 2.66rem;
+    height: 2.66rem;
+}
+.bannerBox>p{
+    text-align: center;
+    margin-top: 3.9rem;
+    font-size: 0.36rem;
+    color: #FDAC02;
+}
+.bg-box{
+    background-color: #DDDDDD;
+}
+.gradesUp{
+    width: 95%;
+    padding-left: 1.5rem;
+    height: 0.95rem;
+    background: url("../images/ly-next.png")no-repeat;
+    background-position: right;
+    background-size: 0.31rem 0.51rem;
+    font-size: 0.36rem;color: #2e2e2e;
+    line-height: 0.95rem;
+}
+.gradesUp>a{
+    color: #2e2e2e;
+}
+.tequan{
+    font-size: 0.5rem;
+    color: #333;
+    margin-top: 0.8rem;
+    margin-left: 1.2rem;
+}
+.list>li{
+    font-size: 0.36rem;
+    color: #747474;
+    padding: 0.5rem 1.2rem 1.3rem 1.2rem;
+    width: 100%;height: 1rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
