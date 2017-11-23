@@ -17,12 +17,6 @@ img{
 	margin: 0;
 	padding: 0;
 }
-a{
-	border: none;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-tap-highlight-color: transparent;
-	outline: none;
-}
 input,a{
 	text-decoration: none;
 }
@@ -35,6 +29,25 @@ header{
 	text-align: center;
 	color: #fff;
 	font-size: .52rem;
+	position: relative;
+}
+header > img{
+	display: inline-block;
+	height: 1.4rem;
+}
+.sign_in{
+	border-right: 1px solid #fff;
+}
+.my{
+	/* display: inline-block; */
+	position: absolute;
+	right: .5rem;
+	top: 0;
+	font-size: .4rem;
+	width: .6rem;
+	height: 1.4rem;
+	background: url(../images/my.png) no-repeat center center;
+	background-size: .6rem;
 }
 .back{
 	position: absolute;
@@ -44,11 +57,6 @@ header{
 	background-size: contain;
 	width: .48rem;
 	height: .48rem;
-}
-/*主体内容*/
-.container{
-	padding-bottom: 1.44rem;
-	/*background: #f0efed;*/
 }
 
 /*底部菜单栏*/
@@ -66,7 +74,7 @@ header{
 	justify-content: space-around;
 	background: #fff;
 }
-.bottom-menu > div{
+.bottom-menu > a{
 	-webkit-flex: auto;
 	flex: auto;
 	text-align: center;
@@ -80,22 +88,16 @@ header{
 .bottom-menu > .active{
 	color: #29b4ce;
 }
-.home{
-	border-right: .04rem solid #666;
-	background: url(../images/home.png) no-repeat center top;
-	background-size: .6rem;
+.clearfix{
+	*zoom: 1;
 }
-.home.active{
-	background: url(../images/home_active.png) no-repeat center top;
-	background-size: .6rem;
-}
-.my{
-	background: url(../images/my.png) no-repeat center top;
-	background-size: .6rem;
-}
-.my.active{
-	background: url(../images/my_active.png) no-repeat center top;
-	background-size: .6rem;
+.clearfix:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	clear: both
 }
 
 

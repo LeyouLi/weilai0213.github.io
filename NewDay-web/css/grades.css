@@ -4,7 +4,7 @@
 .gradesbox{
     position: absolute;
     top:0;
-    right: 0.2rem;
+    right: 0.5rem;
     font-size: 0.3rem;
     color: #fff;
 }
@@ -43,23 +43,24 @@
     background: url("../images/ly-next.png")no-repeat;
     background-position: right;
     background-size: 0.31rem 0.51rem;
-    font-size: 0.36rem;color: #2e2e2e;
+    font-size: 0.4rem;color: #2e2e2e;
     line-height: 0.95rem;
 }
 .gradesUp>a{
-    color: #2e2e2e;
+    color: #d99300;
 }
 .tequan{
     font-size: 0.5rem;
     color: #333;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
     margin-left: 1.2rem;
+    font-weight: bold;
 }
 .list>li{
     font-size: 0.36rem;
     color: #747474;
-    padding: 0.5rem 1.2rem 1.3rem 1.2rem;
-    width: 100%;height: 1rem;
+    padding: 0.5rem 1.2rem 0.2rem 1.2rem;
+    width: 100%;
     border-bottom: 1px solid #e1e1e1;
 }
 

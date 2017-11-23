@@ -24,9 +24,13 @@ html,body{
 	float: right;
 	font-size: .36rem;
 	color: #999;
+	padding-right: .62rem;
+	position: relative;
 }
 .change > a{
-	display: inline-block;
+	position: absolute;
+	right: .2rem;
+	top: .5rem;
 	width: .3rem;
 	height: .3rem;
 	margin-left: .32rem;

@@ -7,33 +7,33 @@
 	<meta name="renderer" content="webkit" />
 	<meta http-equiv="Cache-Control" content="no-siteapp" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/my.css">
-	<script src="./js/my.js"></script>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/my.css">
 </head>
 <body>
-	<header>个人中心</header>
+	<header>个人中心<a href="index.html" class="back"></a></header>
 	<div class="container">
 		<div class="banner">
-			<img src="images/qrcode.png" />
+			<img src="images/qrcode.png" id="text" />
 			<p>ID:<span>STS0789</span></p>
 			<a onClick="textCopy()">点击二维码复制推广链接</a>
 		</div>
 		<ul class="list">
-			<a href="./changeInfo.html"><li class="person-info">个人信息</li></a>
-			<a href="./grades.html"><li class="rank">等级</li></a>
-			<a href=""><li class="business">业务</li></a>
-			<a href=""><li class="report">团队报表</li></a>
+			<li class="person-info"><a href="changeInfo.html">个人信息</a></li>
+			<li class="wallet"><a href="./changMoney.html">我的余额</a></li>
+			<li class="rank"><a href="grades.html">会员等级</a></li>
+			<li class="business"><a href="">我的业务</a></li>
+			<li class="report"><a href="report.html">团队报表</a></li>
 		</ul>
-		<ul class="list">
-			<a href=""><li class="spread">关于推广</li></a>
-			<a class="btn" style="color: #fff">安全退出</a>
-		</ul>
+		<!-- <ul class="list">
+			<li class="spread"><a href="">关于推广</a></li> -->
+			<a class="btn">安全退出</a>
+		<!-- </ul> -->
 	</div>
 	
-	<div class="bottom-menu">
-		<div class="home">首页</div>
-		<div class="my active">我的</div>
-	</div>
+	<!-- <div class="bottom-menu">
+		<a class="home" href="index.html">首页</a>
+		<a class="my active" href="my.html">我的</a>
+	</div> -->
 </body>
 </html>

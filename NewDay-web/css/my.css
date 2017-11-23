@@ -2,9 +2,7 @@ header{
 	height: 1.4rem;
 	line-height: 1.4rem;
 	width: 100%;
-	/* background: url(../images/logo.png) no-repeat center center; */
 	background-color: #29b4ce;
-	/* background-size: contain; */
 	text-align: center;
 	color: #fff;
 	font-size: .52rem;
@@ -14,7 +12,7 @@ header{
 	height: 4.6rem;
 	width: 100%;
 	background: url(../images/banner.png) no-repeat center top;
-	background-size: contain;
+	background-size: cover;
 	color: #fff;
 	font-size: .24rem;
 	text-align: center;
@@ -36,7 +34,7 @@ header{
 	padding-top: .3rem;
 	padding-bottom: .3rem;
 }
-.list > a > li{
+.list > li{
 	position: relative;
 	height: 1.2rem;
 	line-height: 1.2rem;
@@ -46,50 +44,54 @@ header{
 	padding: 0 .24rem 0 1.24rem;
 	font-size: .40rem;
 }
-.list > a{
-	color: #000;
-}
-.list > a > li:before{
+.list > li:before{
 	position: absolute;
 	content: '';
 	background:url(../images/arrow.png) no-repeat center center;
 	background-size: contain;
-	width: .48rem;
+	width: .2rem;
 	height: .48rem;
 	right: .24rem;
 	top: .35rem;
 }
+.list > li > a{
+	display: block;
+	width: 100%;
+	color: #333;
+}
 .person-info{
 	background: url(../images/person.png) no-repeat .25rem center;
-	background-size: .64rem;
+	background-size: .5rem;
+}
+.wallet{
+	background: url(../images/wallet.svg) no-repeat .25rem center;
+	background-size: .5rem;
 }
 .rank{
 	background: url(../images/rank.png) no-repeat .25rem center;
-	background-size: .64rem;
+	background-size: .5rem;
 }
 .business{
 	background: url(../images/business.png) no-repeat .25rem center;
-	background-size: .64rem;
+	background-size: .5rem;
 }
-.list > a > .report{
+.list > .report{
 	background: url(../images/report.png) no-repeat .25rem center;
-	background-size: .64rem;
-	border-bottom: 0;
+	background-size: .5rem;
 }
 .spread{
 	background: url(../images/spread.png) no-repeat .25rem center;
-	background-size: .64rem;
+	background-size: .5rem;
 }
 .btn{
 	margin: 1.7rem auto 0;
 	width: 8.3rem;
-	height: 1.2rem;
-	line-height: 1.2rem;
+	height: .98rem;
+	line-height: .98rem;
 	border-radius: .3rem;
-	background: #ff942e;
+	background: #ff5656;
 	color: #fff;
 	font-size: .44rem;
 	display: block;
 	text-align: center;
-
 }

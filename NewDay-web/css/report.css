@@ -1,0 +1,79 @@
+.user{
+	border-bottom: 1px solid #ccc;
+	padding: 1rem 0 1rem 1.9rem;
+	font-size: 0;
+}
+.user > img{
+	float: left;
+	margin-right: .56rem;
+	width: 1.96rem;
+	height: 1.96rem;
+}
+.user-info{
+	float: left;
+}
+.user-info p{
+	font-size: .36rem;
+	color: #000;
+	padding-top: .3rem;
+}
+.name_span{
+	font-size: .32rem;
+	color: #333;
+}
+.account_span{
+	color: #29b4ce;
+	font-size: .32rem;
+}
+.member_div{
+	height: 1.9rem;
+	line-height: 1.9rem;
+	font-size: .4rem;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.member_div > span{
+	color: #c20000;
+}
+.spread{
+	width: 8.6rem;
+	margin: 0 auto;
+}
+.spread dt{
+	padding-top: .7rem;
+	padding-bottom: .62rem;
+	font-size: .4rem;
+	color: #333;
+}
+.spread dd{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.spread dd > div{
+	-webkit-flex: auto;
+	flex: auto;
+	text-align: center;
+	flex: 1;
+	border: 1px solid #ccc;
+	font-size: .28rem;
+	color: #888;
+	height: 1rem;
+	line-height: 1rem;
+	margin-left: -1px;
+	margin-top: -1px;
+}
+.spread dd.title > div{
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .26rem;
+	color: #000;
+	font-weight: bold;
+}
+.spread dd > div.gold_level{
+	color: #d5b400
+}
