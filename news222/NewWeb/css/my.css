@@ -1,0 +1,129 @@
+header{
+	height: 1.4rem;
+	line-height: 1.4rem;
+	width: 100%;
+	background-color: #4280f6;
+	text-align: center;
+	color: #fff;
+	font-size: .52rem;
+}
+
+.banner{
+	height: 4.6rem;
+	width: 100%;
+	background: url(../images/banner.png) no-repeat center top;
+	background-size: cover;
+	color: #fff;
+	font-size: .24rem;
+	text-align: center;
+
+}
+.banner > img{
+	display: inline-block;
+	width: 1.62rem;
+	height: 1.62rem;
+	margin-top: .96rem;
+}
+.banner > p{
+	margin-top: .24rem;
+	margin-bottom: .32rem;
+}
+
+.list{
+	border-top: .3rem solid #ddd;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+.list > li{
+	position: relative;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	width: 8.6rem;
+	margin:0 auto;
+	border-bottom: 1px solid #999; 
+	padding: 0 .24rem 0 1.24rem;
+	font-size: .40rem;
+}
+.list > li:before{
+	position: absolute;
+	content: '';
+	background:url(../images/arrow.png) no-repeat center center;
+	background-size: contain;
+	width: .2rem;
+	height: .48rem;
+	right: .24rem;
+	top: .35rem;
+}
+.list > li > a{
+	display: block;
+	width: 100%;
+	color: #333;
+}
+.person-info{
+	background: url(../images/person.png) no-repeat .25rem center;
+	background-size: .5rem;
+}
+.wallet{
+	background: url(../images/wallet.svg) no-repeat .25rem center;
+	background-size: .5rem;
+}
+.rank{
+	background: url(../images/rank.png) no-repeat .25rem center;
+	background-size: .5rem;
+}
+.business{
+	background: url(../images/business.png) no-repeat .25rem center;
+	background-size: .5rem;
+}
+.list > .report{
+	background: url(../images/report.png) no-repeat .25rem center;
+	background-size: .5rem;
+}
+.spread{
+	background: url(../images/spread.png) no-repeat .25rem center;
+	background-size: .5rem;
+}
+.btn{
+	margin: 1.7rem auto 0;
+	width: 8.3rem;
+	height: .98rem;
+	line-height: .98rem;
+	border-radius: .3rem;
+	background: #ff5656;
+	color: #fff;
+	font-size: .44rem;
+	display: block;
+	text-align: center;
+}
+.mask{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	display: none;
+}
+.mask_qrcode{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 5rem;
+	height: 5rem;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	background: #fff;
+}
+.close{
+	position: absolute;
+	top: .1rem;
+	right: .5rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	color: #fff;
+	background: url(../images/close.svg) center center no-repeat;
+	background-size:contain;
+}

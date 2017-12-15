@@ -1,0 +1,85 @@
+/* .user{
+	border-bottom: 1px solid #ccc;
+	padding: 1rem 0 1rem 1.9rem;
+	font-size: 0;
+}
+.user > img{
+	float: left;
+	margin-right: .56rem;
+	width: 1.96rem;
+	height: 1.96rem;
+}
+.user-info{
+	float: left;
+}
+.user-info p{
+	font-size: .36rem;
+	color: #000;
+	padding-top: .3rem;
+}
+.name_span{
+	font-size: .32rem;
+	color: #333;
+}
+.account_span{
+	color: #4280f6;
+	font-size: .32rem;
+} */
+.member_div{
+	height: 1.9rem;
+	line-height: 1.9rem;
+	font-size: .4rem;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px solid #008faa;
+}
+.member_div > span{
+	color: #c20000;
+}
+.table{
+	width: 10.08rem;
+	margin: 0 auto;
+}
+.table dt{
+	padding-top: .84rem;
+	padding-bottom: .54rem;
+	font-size: .4rem;
+	color: #333;
+}
+.table dd{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.table dd > div{
+	-webkit-flex: auto;
+	flex: auto;
+	text-align: center;
+	flex: 3;
+	font-size: .24rem;
+	color: #999;
+	height: .8rem;
+	line-height: .8rem;
+	white-space: nowrap;
+}
+.table dd:nth-child(even){
+	background: #f9f9f9;
+}
+.table dd > div:nth-of-type(1){
+	flex: 1;
+	border-right: 2px solid #fff;
+	color: #333;
+}
+.table dd.title{
+	background: #bee2f4;
+	height: .66rem;
+	line-height: .66rem;
+}
+.table dd.title > div{
+	color: #333;
+	font-weight: bold;
+	border-right: 2px solid #fff;
+}
