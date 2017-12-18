@@ -1,0 +1,296 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	box-sizing: border-box;
+}
+body{
+	background: #f2f2f2;
+}
+p,h1,h2,h3,h4,h5,h6,pre,input,dd,ul,dt,dl,ol,figure,body,input,article{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+img{
+	border: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+input,a{
+	text-decoration: none;
+}
+/*顶部*/
+header{
+	height: 1.32rem;
+	line-height: 1.32rem;
+	width: 100%;
+	background-color: #4280f6;
+	text-align: center;
+	color: #fff;
+	font-size: .52rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+header > img{
+	display: inline-block;
+    height: .6rem;
+    margin-top: .36rem;
+}
+.sign_in{
+	border-right: 1px solid #fff;
+}
+.my{
+	/* display: inline-block; */
+	position: absolute;
+	right: .5rem;
+	top: 0;
+	/* font-size: .4rem; */
+	/* width: .6rem; */
+	height: 1.32rem;
+	line-height: 1.32rem;
+	/* background: url(../images/my.png) no-repeat center center; */
+	/* background-size: .6rem; */
+	font-size: .4rem;
+	color: #fff;
+
+}
+.back{
+	position: absolute;
+	left: .4rem;
+	top: .45rem;
+	background: url(../images/back.png) no-repeat center center;
+	background-size: contain;
+	width: .48rem;
+	height: .48rem;
+}
+.container{
+	margin-top: 1.32rem;
+}
+/*底部菜单栏*/
+.bottom-menu{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 1.44rem;
+	width: 100%;
+	box-shadow: 1px -1px 2px #ccc;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+	background: #fff;
+}
+.bottom-menu > a{
+	-webkit-flex: auto;
+	flex: auto;
+	text-align: center;
+	flex: 1;
+	font-size: .26rem;
+	color: #666;
+	height: .84rem;
+	margin-top: .3rem;
+	padding-top: .6rem;
+}
+.bottom-menu > .active{
+	color: #4280f6;
+}
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	clear: both
+}
+/*提现页以及报表页内的表格样式*/
+/* .table{
+	width: 10.08rem;
+	margin: 0 auto;
+}
+.table dt{
+	padding-top: .84rem;
+	padding-bottom: .54rem;
+	font-size: .4rem;
+	color: #333;
+}
+.table dd{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.table dd > div{
+	-webkit-flex: auto;
+	flex: auto;
+	text-align: center;
+	flex: 3;
+	font-size: .24rem;
+	color: #999;
+	height: .8rem;
+	line-height: .8rem;
+	white-space: nowrap;
+}
+.table dd:nth-child(even){
+	background: #f9f9f9;
+}
+.table dd > div:nth-of-type(1){
+	flex: 1;
+	border-right: 2px solid #fff;
+	color: #333;
+}
+.table dd.title{
+	background: #bee2f4;
+	height: .66rem;
+	line-height: .66rem;
+}
+.table dd.title > div{
+	color: #333;
+	font-weight: bold;
+	border-right: 2px solid #fff;
+} */
+.loaders {
+	display: none;
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.6);
+}
+.loaders .loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+@-webkit-keyframes ball-spin-fade-loader {
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes ball-spin-fade-loader {
+  50% {
+    opacity: 0.3;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.ball-spin-fade-loader {
+  position: relative;
+}
+.ball-spin-fade-loader > div:nth-child(1) {
+  top: 25px;
+  left: 0;
+  -webkit-animation: ball-spin-fade-loader 1s 0.84s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.84s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(2) {
+  top: 17.04545px;
+  left: 17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.72s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.72s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(3) {
+  top: 0;
+  left: 25px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.6s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.6s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(4) {
+  top: -17.04545px;
+  left: 17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.48s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.48s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(5) {
+  top: -25px;
+  left: 0;
+  -webkit-animation: ball-spin-fade-loader 1s 0.36s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.36s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(6) {
+  top: -17.04545px;
+  left: -17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.24s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.24s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(7) {
+  top: 0;
+  left: -25px;
+  -webkit-animation: ball-spin-fade-loader 1s 0.12s infinite linear;
+          animation: ball-spin-fade-loader 1s 0.12s infinite linear;
+}
+.ball-spin-fade-loader > div:nth-child(8) {
+  top: 17.04545px;
+  left: -17.04545px;
+  -webkit-animation: ball-spin-fade-loader 1s 0s infinite linear;
+          animation: ball-spin-fade-loader 1s 0s infinite linear;
+}
+.ball-spin-fade-loader > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  position: absolute;
+}
+
+
+
+/*媒体查询*/
+@media screen and (min-width: 320px){
+    html{ font-size: 29.63px}
+}
+@media screen and (min-width: 360px){
+    html{ font-size: 33.333px}
+}
+@media screen and (min-width:375px){
+    html{ font-size: 34.722px}
+}
+@media screen and (min-width:412px){
+    html{font-size: 38.148px;}
+}
+@media screen and (min-width:414px){
+    html{font-size: 38.333px;}
+}
+@media screen and (min-width:768px){
+    html{font-size: 71.111px;}
+}
+@media screen and (min-width:992px){
+    html{font-size: 91.852px;}
+}
+@media screen and (min-width:1080px){
+    html{font-size: 100px;}
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人中心</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" href="./images/bitbug_favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/my.css">
+</head>
+<body>
+	<header>个人中心<a href="index.html" class="back"></a></header>
+	<div class="container">
+		<div class="banner">
+			<img src="images/qrcode.png" id="text" />
+			<p>推广码:<span>STS0789</span></p>
+			<p>http://shzenhenxsd.xyz</p>
+			<a onClick="textCopy()" class="copy_btn">点击复制</a>
+		</div>
+		<ul class="list">
+			<li class="person-info"><a href="changeInfo.html">个人信息</a></li>
+			<li class="wallet"><a href="./changMoney.html">我的余额</a></li>
+			<li class="rank"><a href="upgrade.html">会员等级</a></li>
+			<li class="business"><a href="changeRecord.html">我的业务</a></li>
+			<li class="report"><a href="report.html">团队报表</a></li>
+			<li class="coupon"><a href="changeCoupon.html">优&nbsp;&nbsp;惠&nbsp;&nbsp;券</a></li>
+		</ul>
+		<!-- <ul class="list">
+			<li class="spread"><a href="">关于推广</a></li> -->
+			<a class="btn">安全退出</a>
+		<!-- </ul> -->
+	</div>
+
+	<!-- <div class="bottom-menu">
+		<a class="home" href="index.html">首页</a>
+		<a class="my active" href="my.html">我的</a>
+	</div> -->
+	<div class="mask" id="mask">
+		<img class="mask_qrcode" />
+		<a id="close" class="close"></a>
+	</div>
+	<script src="js/my.js"></script>
+</body>
+</html>

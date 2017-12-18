@@ -1,0 +1,117 @@
+.product_brief{
+  margin-top: .5rem;
+  /* height: 2rem;
+  line-height: 2rem; */
+  background-color: #fff;
+  padding: .4rem .5rem;
+  font-size: 0
+}
+.product_brief > img{
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.product_brief > div{
+  display: inline-block;
+  margin-left: .64rem;
+  vertical-align: top;
+}
+.product_brief > div > h1{
+  height: .5rem;
+  line-height: .5rem;
+  font-size: .44rem;
+  color: #3c4350;
+}
+.product_brief > div > p{
+  height: .32rem;
+  line-height: .32rem;
+  margin-top: .32rem;
+  font-size: .3rem;
+  color: #a7aebf;
+}
+.product_detail{
+  background: #fff;
+  color: #3C4350;
+}
+.product_title{
+  margin-top: .5rem;
+  border-bottom: 1px solid #F5F4F9;
+  width: 100%;
+  padding: 0 .5rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: .36rem;
+}
+.icon{
+  display: inline-block;
+  width: .42rem;
+  height: .42rem;
+  background: url(../images/icon_know.png) no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: .22rem;
+}
+.brief{
+  padding: .5rem .5rem .4rem;
+  border-bottom: 2px solid #f2f2f2;
+}
+.brief > p {
+  font-size: .36rem;
+  margin-bottom: .58rem;
+}
+.brief-list{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.brief-list > div{
+  -webkit-flex: auto;
+  flex: auto;
+  text-align: center;
+  flex: 1;
+}
+.brief-list > div > p{
+  font-size: .5rem;
+  color: #0f1428;
+  margin-bottom: .48rem;
+}
+.brief-list > div > .red{
+  color: #e4001a;
+}
+.brief-list > div > div{
+  font-size: .3rem;
+  color: #a7aebf;
+}
+
+.product_inner{
+  padding: .44rem .5rem .8rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.product_inner > dt{
+  font-size: .36rem;
+}
+.product_inner > dd{
+  margin-top: .36rem;
+  font-size: .28rem;
+  color: #a7aebf;
+}
+.apply_btn{
+  border-top: 2px solid #ccc;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.apply_btn > a{
+  display: block;
+  width: 8.6rem;
+  height: .98rem;
+  line-height: .98rem;
+  background-color: #4280F6;
+  color: #fff;
+  font-size: .5rem;
+  border-radius: .1rem;
+  margin: .26rem auto; 
+
+}

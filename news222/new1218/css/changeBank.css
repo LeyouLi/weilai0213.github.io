@@ -1,0 +1,101 @@
+html,body{
+	background: #F5F4F9;
+}
+.container{
+	margin-bottom: 1.5rem;
+}
+.list>li{
+	height: 1.1rem;
+	color: #3c4350;
+	font-size: 0.44rem;
+	line-height: 1.1rem;
+	padding-left: 0.5rem;
+	background: #fff;
+}
+.active{
+	background: #F5F4F9;
+	height: 1.2rem;
+	color: #a7aebf;
+	font-size: 0.4rem;
+	line-height: 1.2rem;
+	padding-left: 0.5rem;
+}
+.list>li>span{
+	margin-left: 0.5rem;
+	color: #BCBCBC;
+}
+.list>li:nth-child(2){
+	margin-bottom: 0.5rem;
+}
+.bankBox>li{
+	height: 1.24rem;
+	color: #3c4350;
+	font-size: 0.44rem;
+	line-height: 1.24rem;
+	padding-left: 0.5rem;
+	background: #fff;
+	margin-bottom: 0.5rem;
+}
+.bankBox>li>select{
+	width: 50%;
+	height: 65%;
+	margin-left: 0.5rem;
+	color: #999;
+	outline: none;
+	font-size: 0.4rem;
+}
+.bankBox>li>select>option{
+	width: 50%;
+	font-size: 0.3rem;
+}
+.bankBox>li>input{
+	margin-left: 0.5rem;
+	color: #3c4350;
+	font-size: 0.4rem;
+	height: 75%;
+	width: 60%;
+	outline: none;
+}
+.bankBox>li>input::-moz-placeholder{
+	color: #a7aebf;
+}
+.bankBox>li:last-child>input{
+	width: 45%;
+	height: 50%;
+	border-right: 1px solid #A7AEBF;
+}
+.bankBox>li:last-child>span:last-child{
+	margin-left: 0.5rem;
+	font-size: 0.36rem;
+	color: #feb83f;
+}
+.bankBtn{
+	width: 8.6rem;
+	height: 1rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+	background: #E3E3E3;
+	font-size: 0.44rem;
+	color: #000;
+	line-height: 1rem;
+	text-align: center;
+	border-radius: 0.15rem;
+}
+.bankBtn:hover{
+	background: #4280f6;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,211 @@
+html,body{
+  height: 100%;
+}
+
+.container{
+  padding-top: .3rem;
+  background: #f2f2f2;
+  height: 100%
+}
+.pay_list{
+  /*padding-top: .3rem;*/
+
+}
+.pay_list > li{
+  height: 1.1rem;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: .02rem solid #f2f2f2;
+  line-height: 1.1rem;
+  margin-top: .5rem;
+  padding: 0 .5rem;
+  font-size: .4rem;
+  color: #666;
+  background: #fff;
+}
+.pay_list > li > span{
+  width: 7.5rem;
+  display: inline-block;
+  text-align:right;
+  color: #A7AEBF;
+}
+.pay_list > li > span > em{
+  font-style: normal;
+  color: #3C4350;
+  padding-left: .2rem;
+}
+/*下拉菜单样式*/
+.weui-cell_select {
+    padding: 0;
+}
+.weui-cell {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.weui-cells {
+    background-color: #FFFFFF;
+    line-height: 1.47058824;
+    overflow: hidden;
+    position: relative;
+}
+.weui-label {
+    display: block;
+    width: 6.5rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.weui-cell__bd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.weui-cell_select-after .weui-select {
+    padding-left: 0;
+    color:#A7AEBF;
+}
+.weui-select {
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    width: 100%;
+    font-size: inherit;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    position: relative;
+    z-index: 1;
+    color: #666;
+}
+.weui-cell_select .weui-cell__bd:after {
+    content: " ";
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #C8C8CD;
+    border-style: solid;
+    -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: relative;
+    top: -2px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -4px;
+}
+.price{
+  margin-top: .3rem;
+  font-size: .36rem;
+  padding-right: .45rem;
+  color: #999;
+  text-align: right;
+}
+.price > span{
+  color: #e42323;
+}
+.pay_type{
+  margin-top: .64rem;
+}
+.pay_type > h1{
+  font-size: .44rem;
+  color: #3c4350;
+  text-indent: .5rem;
+  font-weight: normal;
+}
+.pay_type > ul{
+  padding-top: .36rem;
+}
+.pay_type li{
+  height: 1.1rem;
+  line-height: 1.1rem;
+  background: #fff;
+  width: 100%;
+  padding-left: .6rem;
+  font-size: .4rem;
+  color: #666;
+  margin-top: .5rem;
+}
+.pay_type li::before {
+  content: '';
+  width: .8rem;
+  height: .8rem;
+  border-radius: .8rem;
+  display: inline-block;
+  margin-top: .26rem;
+  margin-right: .3rem;
+  float: left;
+  background-size: contain;
+}
+.pay_type li::after {
+  content: '';
+  width: .4rem;
+  height: .4rem;
+  float: right;
+  margin-top: -.66rem;
+  margin-right: .6rem;
+  background: url(../images/agree.png) no-repeat center center;
+  background-size: contain;
+}
+.pay_type li.active::after {
+  background: url(../images/agree2.png) no-repeat center center;
+  background-size: contain;
+}
+.ali_pay::before {
+  background: url(../images/zhifubao.png) no-repeat center center;
+}
+.wx_pay::before {
+  background: url(../images/weixin.png) no-repeat center center;
+}
+.pay_box{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  font-size: 0;
+  border-top: 1px solid #ddd;
+  background: #fff;
+}
+.pay_box > div{
+  display: inline-block;
+}
+.pay_price{
+  width: 7.2rem;
+  font-size: .36rem;
+  text-align: center;
+}
+.pay_price > span{
+  color: #F20000;
+  font-size: .44rem;
+}
+.pay_btn{
+  width: 3.6rem;
+  text-align:center;
+  background-color: #4280F6;
+  color: #fff;
+  font-size: .44rem;
+}
+.btn {
+  background-color: #4280f6;
+  text-align: center;
+  height: .98rem;
+  line-height: .98rem;
+  color: #fff;
+  width: 8.6rem;
+  margin:  1rem auto 0;
+  border-radius: .1rem;
+  font-size: .44rem
+}
+.ps{
+  margin-top: .5rem;
+  font-size: .3rem;
+  color: #a7aebf;
+  text-align: right;
+  padding-right: .4rem;
+}
