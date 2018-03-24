@@ -113,59 +113,59 @@ to {-webkit-transform: rotate(360deg);}
 	right: 10.2rem;
 }
 .question3_size{
-	width: 6.33rem;
+	width: 6.53rem;
+	height: 1.44rem;
+	position: absolute;
+	top: 2.3rem;
+	right: 10.2rem;
+}
+.question4_size{
+	width: 7.41rem;
 	height: 0.62rem;
 	position: absolute;
 	top: 2.8rem;
 	right: 10.2rem;
 }
-.question4_size{
-	width: 4.5rem;
-	height: 0.61rem;
-	position: absolute;
-	top: 2.8rem;
-	right: 10.2rem;
-}
 .question5_size{
-	width: 4.5rem;
-	height: 0.61rem;
+	width: 6.55rem;
+	height: 1.55rem;
 	position: absolute;
-	top: 2.8rem;
+	top: 2.5rem;
 	right: 10.2rem;
 }
 .question6_size{
-	width: 4.5rem;
-	height: 0.61rem;
+	width: 6.93rem;
+	height: 0.65rem;
 	position: absolute;
 	top: 2.8rem;
 	right: 10.2rem;
 }
 .question7_size{
-	width: 4.5rem;
+	width: 5.74rem;
 	height: 0.61rem;
 	position: absolute;
 	top: 2.8rem;
 	right: 10.2rem;
 }
 .question8_size{
-	width: 4.5rem;
-	height: 0.61rem;
+	width: 6.33rem;
+	height: 0.62rem;
 	position: absolute;
 	top: 2.8rem;
 	right: 10.2rem;
 }
 .question9_size{
-	width: 4.5rem;
-	height: 0.61rem;
+	width: 5.74rem;
+	height: 0.62rem;
 	position: absolute;
 	top: 2.8rem;
 	right: 10.2rem;
 }
 .question10_size{
-	width: 4.5rem;
-	height: 0.61rem;
+	width: 7.13rem;
+	height: 1.46rem;
 	position: absolute;
-	top: 2.8rem;
+	top: 2.3rem;
 	right: 10.2rem;
 }
 .answer1_box{
