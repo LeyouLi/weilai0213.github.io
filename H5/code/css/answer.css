@@ -76,6 +76,8 @@ html,body{
 .music_box{
 	width: 1.09rem;
 	height: 1.09rem;
+	background: url('../images/music.png') no-repeat;
+	background-size: cover;
 	position: absolute;
 	top: 0.9rem;
 	right: -3.4rem;
@@ -94,6 +96,18 @@ to {-webkit-transform: rotate(360deg);}
     -webkit-animation: music_box 2s linear infinite;
     -o-animation: music_box 2s linear infinite;
 }
+.close_music{
+	width: 1.09rem;
+	height: 1.09rem;
+	background: url('../images/close_music.png') no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0.9rem;
+	right: -3.4rem;
+	z-index: 4;
+	transition: all 1s;
+}
+
 .question_box{
 	z-index: 4;
 	transition: all 0.5s;

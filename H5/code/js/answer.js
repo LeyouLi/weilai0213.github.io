@@ -1,5 +1,4 @@
 $(function(){
-
 		//判断答题选项
 		function answerTrueChange(elem,newsrc){
 			$(elem).on('click',function(){
@@ -11,6 +10,7 @@ $(function(){
 					tableShow();
 				},500)
 			});
+
 		};
 		function answerErrorChange(elem,newsrc){
 			$(elem).on('click',function(){
@@ -23,6 +23,7 @@ $(function(){
 				},500)
 			});
 		};
+
 		answerErrorChange('.answer11_box','answer11_1.png');
 		answerTrueChange('.answer12_box','answer12_1.png');
 		answerErrorChange('.answer13_box','answer13_1.png');
@@ -63,7 +64,18 @@ $(function(){
 		answerErrorChange('.answer102_box','answer102_10.png');
 		answerTrueChange('.answer103_box','answer103_10.png');
 
-
+		// 关闭/打开音乐
+		$('.music_box').on('click',function(){
+	    	if(!($(this).hasClass('close_music'))){
+	    		$('#bg_music').attr("src",""); 
+	    		$('.music_box').addClass('close_music');
+	    		$('.music_box').removeClass('music_box');
+	    	}else{
+	    		$('#bg_music').attr("src","./audio/bg_music.mp3");
+	    		$('.close_music').addClass('music_box');
+	    		$('.close_music').removeClass('close_music');
+	    	}
+    	});
 		//过度动画
 		function showBoxIn(){
 			$('.bg_down_box').css('right',"0rem");
@@ -97,13 +109,7 @@ $(function(){
 				$(".answer2_box").css('right','10.1rem');
 				$(".answer3_box").css('right','10.1rem');
 		}
-		// $(".question_show_list img").on('click',function(){
-		// 	setTimeout(function(){
-		// 		showBoxOut();
-		// 		showBoxIn();
-		// 		tableShow();
-		// 	},1000)	
-		// });
+		
 		var num = 0;
 		function tableShow(){
 			num++;
@@ -112,7 +118,6 @@ $(function(){
 				$(".question_show_content_box").css("top",h)
 			}else{
 				return false;
-			}
-			
+			}	
 		}
 })

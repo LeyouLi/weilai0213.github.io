@@ -1,0 +1,168 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background:#606CF7;
+}
+.bg_img_box{
+	width: 100%;
+	height: 100%;
+	background: url('../images/bg_img.png') no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+.music_box{
+	width: 1.09rem;
+	height: 1.09rem;
+	background: url('../images/music.png') no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0.5rem;
+	right: 12rem;
+	z-index: 1;
+	transition: all 1s;
+}
+@-webkit-keyframes music_box{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
+
+.music_box{
+    -webkit-transform: rotate(360deg);
+    animation: music_box 2s linear infinite;
+    -moz-animation: music_box 2s linear infinite;
+    -webkit-animation: music_box 2s linear infinite;
+    -o-animation: music_box 2s linear infinite;
+}
+.close_music{
+	width: 1.09rem;
+	height: 1.09rem;
+	background: url('../images/close_music.png') no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0.5rem;
+	right: 0.4rem;
+	z-index: 1;
+	transition: all 1s;
+}
+.content_write_box{
+	width: 9.13rem;
+	height: 12.77rem; 
+	background: url('../images/index/index_bg.png') no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 2rem;
+	left: -5rem;
+	overflow: hidden;
+	transition: all 0.4s;
+}
+.authentication_box{
+	width: 4.38rem;
+	height: 1.16rem;
+	position: absolute;
+	top: 1rem;
+	left: -5rem;
+	transition: all 0.6s;
+}
+.error_box{
+	width: 5.59rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 3rem;
+	left: -5rem;
+	transition: all 0.8s;
+}
+.name_box{
+	width: 6.5rem;
+	height: 1.22rem;
+	position: absolute;
+	top: 7rem;
+	left: -5rem;
+	transition: all 1s;
+}
+.name_box img{
+	width: 1.04rem;
+	height: 0.59rem;
+	margin-top: 0.3rem;
+	float: left;
+}
+.name_box input{
+	width: 4.69rem;
+	height: 1.22rem;
+	background: #fff;
+	float: right;
+	border: 5px solid #000;
+	border-radius: 1rem;
+	padding-left: 0.5rem;
+	outline: none;
+}
+.tel_box{
+	width: 6.5rem;
+	height: 1.22rem;
+	position: absolute;
+	top: 9rem;
+	left: -5rem;
+	transition: all 1.2s;
+}
+.tel_box img{
+	width: 1.04rem;
+	height: 0.59rem;
+	margin-top: 0.3rem;
+	float: left;
+}
+.tel_box input{
+	width: 4.69rem;
+	height: 1.22rem;
+	background: #fff;
+	float: right;
+	border: 5px solid #000;
+	border-radius: 1rem;
+	padding-left: 0.5rem;
+	outline: none;
+}
+.cardnum_box{
+	width: 6.5rem;
+	height: 1.22rem;
+	position: absolute;
+	top: 11rem;
+	left: -5rem;
+	transition: all 1.5s;
+}
+.cardnum_box img{
+	width: 1.65rem;
+	height: 0.59rem;
+	margin-top: 0.3rem;
+	float: left;
+}
+.cardnum_box input:nth-child(2){
+	width: 4.69rem;
+	height: 1.22rem;
+	background: #fff;
+	float: right;
+	border: 5px solid #000;
+	border-radius: 1rem;
+	padding-left: 0.5rem;
+	outline: none;
+}
+.cardnum_box #btn{
+	width: 2.9rem;
+	height: 1.22rem;
+	color: #000;
+	background: transparent;
+	font-size: 0.4rem;
+	font-weight: bold;
+	line-height: 1.22rem;
+	position: absolute;
+	top: 0;
+	right: 0rem;
+}
+.go_answer_btn_box{
+	width: 9.13rem;
+	height: 1.43rem;
+	position: absolute;
+	top: 15.5rem;
+	right: 10rem;
+	transition: all 1.5s;
+}
+
+
