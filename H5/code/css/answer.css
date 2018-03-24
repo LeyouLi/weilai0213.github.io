@@ -9,6 +9,7 @@ html,body{
 	background: url('../images/bg_img.png') no-repeat;
 	background-size: cover;
 	position: relative;
+	/*overflow: hidden;*/
 }
 .bg_down_box{
 	width: 9.13rem;
@@ -17,7 +18,7 @@ html,body{
 	top: 1.36rem;
 	right: -9.5rem;
 	z-index: 1;
-	transition: all 0.8s;
+	transition: all 0.5s;
 }
 .bg_up_box1{
 	width: 9.13rem;
@@ -26,40 +27,60 @@ html,body{
 	top: 1.66rem;
 	right: -25.5rem;
 	z-index: 2;
-	transition: all 1.5s;
+	transition: all 1s;
 }
 .bookmark_box{
 	width: 0.9rem;
 	height: 0.9rem;
 	position: absolute;
 	top: 4.3rem;
-	right: 0.05rem;
+	right: -2rem;
 	z-index: 3;
+	transition: all 1s;
 }
-.bg_up_box2{
-	width: 9.13rem;
+.question_show_box{
+	width: 9.25rem;
 	height: 13.66rem;
 	position: absolute;
 	top: 1.96rem;
 	right: -40.5rem;
 	z-index: 3;
-	transition: all 2s;
+	transition: all 1.5s;
+	border-radius: 0.8rem;
+	overflow: hidden;
+}
+.question_show_content_box{
+	width: 9.25rem;
+	height: 136.6rem;
+	position: absolute;
+	top: 0rem;
+	transition: all 1s;
+}
+.question_show_list{
+	width: 9.25rem;
+	height: 13.66rem;
+	position: relative;
+	overflow: hidden;
+	background: url("../images/bg_up.png") no-repeat;
+	background-size: cover;
 }
 .title_box{
 	width: 4.28rem;
 	height: 1.37rem;
 	position: absolute;
-	top: 1.96rem;
-	right: 3.3rem;
+	top: -2rem;
+	right: 2.3rem;
 	z-index: 4;
+	transition: all 1s;
 }
 .music_box{
 	width: 1.09rem;
 	height: 1.09rem;
 	position: absolute;
 	top: 0.9rem;
-	right: 0.4rem;
+	right: -3.4rem;
 	z-index: 4;
+	transition: all 1s;
 }
 @-webkit-keyframes music_box{
 from {-webkit-transform: rotate(0deg);}
@@ -74,34 +95,103 @@ to {-webkit-transform: rotate(360deg);}
     -o-animation: music_box 2s linear infinite;
 }
 .question_box{
+	z-index: 4;
+	transition: all 0.5s;
+}
+.question1_size{
 	width: 4.5rem;
 	height: 0.61rem;
 	position: absolute;
-	top: 4.3rem;
-	right: 3.3rem;
-	z-index: 4;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question2_size{
+	width: 6.33rem;
+	height: 0.62rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question3_size{
+	width: 6.33rem;
+	height: 0.62rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question4_size{
+	width: 4.5rem;
+	height: 0.61rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question5_size{
+	width: 4.5rem;
+	height: 0.61rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question6_size{
+	width: 4.5rem;
+	height: 0.61rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question7_size{
+	width: 4.5rem;
+	height: 0.61rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question8_size{
+	width: 4.5rem;
+	height: 0.61rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question9_size{
+	width: 4.5rem;
+	height: 0.61rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
+}
+.question10_size{
+	width: 4.5rem;
+	height: 0.61rem;
+	position: absolute;
+	top: 2.8rem;
+	right: 10.2rem;
 }
 .answer1_box{
 	width: 6.86rem;
 	height: 1.42rem;
 	position: absolute;
-	top: 6.6rem;
-	right: 2rem;
+	top: 5rem;
+	right: 10.1rem;
 	z-index: 4;
+	transition: all 0.8s;
 }
 .answer2_box{
 	width: 6.86rem;
 	height: 1.42rem;
 	position: absolute;
-	top: 9.1rem;
-	right: 2rem;
+	top: 7.3rem;
+	right: 10.1rem;
 	z-index: 4;
+	transition: all 1s;
 }
 .answer3_box{
 	width: 6.86rem;
 	height: 1.42rem;
 	position: absolute;
-	top: 11.6rem;
-	right: 2rem;
+	top: 9.6rem;
+	right: 10.1rem;
 	z-index: 4;
+	transition: all 1.2s;
 }
