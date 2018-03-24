@@ -88,9 +88,12 @@ $(function(){
 				$(".answer3_box").css('right','10.1rem');
 		}
 		$(".question_show_list img").on('click',function(){
-			showBoxOut();
-			showBoxIn();
-			tableShow();
+			setTimeout(function(){
+				showBoxOut();
+				showBoxIn();
+				tableShow();
+			},500)
+			
 		});
 		var num = 0;
 		function tableShow(){
