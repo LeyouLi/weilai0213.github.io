@@ -63,7 +63,16 @@ $(function(){
 				$('.bookmark_box').css('right',"0.05rem");
 				$('.music_box').css('right',"0.4rem");
 				$(".title_box").css('top','0rem');
-				$(".question_box").css('right','2.2rem');
+				$(".question1_size").css('right','2.2rem');
+				$(".question2_size").css('right','1.2rem');
+				$(".question3_size").css('right','1.3rem');
+				$(".question4_size").css('right','0.9rem');
+				$(".question5_size").css('right','1.2rem');
+				$(".question6_size").css('right','1rem');
+				$(".question7_size").css('right','1.6rem');
+				$(".question8_size").css('right','1.4rem');
+				$(".question9_size").css('right','1.6rem');
+				$(".question10_size").css('right','0.95rem');
 				$(".answer1_box").css('right','1.1rem');
 				$(".answer2_box").css('right','1.1rem');
 				$(".answer3_box").css('right','1.1rem');
