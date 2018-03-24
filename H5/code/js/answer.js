@@ -4,13 +4,23 @@ $(function(){
 		function answerTrueChange(elem,newsrc){
 			$(elem).on('click',function(){
 				$('#true_mp3').attr("src","./audio/true.mp3"); 
-				$(this).attr("src","./images/"+newsrc)
+				$(this).attr("src","./images/"+newsrc);
+				setTimeout(function(){
+					showBoxOut();
+					showBoxIn();
+					tableShow();
+				},500)
 			});
 		};
 		function answerErrorChange(elem,newsrc){
 			$(elem).on('click',function(){
 				$('#error_mp3').attr("src","./audio/error.mp3"); 
-				$(this).attr("src","./images/"+newsrc)
+				$(this).attr("src","./images/"+newsrc);
+				setTimeout(function(){
+					showBoxOut();
+					showBoxIn();
+					tableShow();
+				},500)
 			});
 		};
 		answerErrorChange('.answer11_box','answer11_1.png');
@@ -87,13 +97,13 @@ $(function(){
 				$(".answer2_box").css('right','10.1rem');
 				$(".answer3_box").css('right','10.1rem');
 		}
-		$(".question_show_list img").on('click',function(){
-			setTimeout(function(){
-				showBoxOut();
-				showBoxIn();
-				tableShow();
-			},1000)	
-		});
+		// $(".question_show_list img").on('click',function(){
+		// 	setTimeout(function(){
+		// 		showBoxOut();
+		// 		showBoxIn();
+		// 		tableShow();
+		// 	},1000)	
+		// });
 		var num = 0;
 		function tableShow(){
 			num++;
