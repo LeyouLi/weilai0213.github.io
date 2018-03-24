@@ -92,8 +92,7 @@ $(function(){
 				showBoxOut();
 				showBoxIn();
 				tableShow();
-			},500)
-			
+			},1000)	
 		});
 		var num = 0;
 		function tableShow(){
