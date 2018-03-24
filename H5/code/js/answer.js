@@ -9,7 +9,7 @@ $(function(){
 					showBoxOut();
 					showBoxIn();
 					tableShow();
-				},500)
+				},5000)
 			});
 		};
 		function answerErrorChange(elem,newsrc){
@@ -20,7 +20,7 @@ $(function(){
 					showBoxOut();
 					showBoxIn();
 					tableShow();
-				},500)
+				},5000)
 			});
 		};
 		answerErrorChange('.answer11_box','answer11_1.png');
