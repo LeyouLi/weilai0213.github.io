@@ -1,25 +1,29 @@
 $(function(){
 		//判断答题选项
+		var fractionTrue = 0;
 		function answerTrueChange(elem,newsrc){
 			$(elem).on('click',function(){
+				fractionTrue++;
 				$('#true_mp3').attr("src","./audio/true.mp3"); 
 				$(this).attr("src","./images/"+newsrc);
 				setTimeout(function(){
 					showBoxOut();
 					showBoxIn();
-					tableShow();
-				},500)
+					tableShow(fractionTrue);
+				},500);
 			});
-
 		};
+
+		var fractionError = 10;
 		function answerErrorChange(elem,newsrc){
 			$(elem).on('click',function(){
+				fractionError--;
 				$('#error_mp3').attr("src","./audio/error.mp3"); 
 				$(this).attr("src","./images/"+newsrc);
 				setTimeout(function(){
 					showBoxOut();
 					showBoxIn();
-					tableShow();
+					tableShow(fractionError);
 				},500)
 			});
 		};
@@ -111,13 +115,55 @@ $(function(){
 		}
 		
 		var num = 0;
-		function tableShow(){
+		function tableShow(fractionNum){
 			num++;
 			var h = (num*-13.66) + 'rem';
 			if(num < 10){
 				$(".question_show_content_box").css("top",h)
 			}else{
-				return false;
+				function hrefUrl(toUrl){
+					setTimeout(function(){
+			    		window.location.href=toUrl;
+			    	},500)
+				}
+				var n = fractionNum;
+				switch(n)
+				{
+					case 0:
+					hrefUrl('grade1.html');
+					case 1:
+					hrefUrl('grade1.html');
+					break;
+					case 2:
+					hrefUrl('grade1.html');
+					break;
+					case 3:
+					hrefUrl('grade2.html');
+					break;
+					case 4:
+					hrefUrl('grade2.html');
+					break;
+					case 5:
+					hrefUrl('grade3.html');
+					break;
+					case 6:
+					hrefUrl('grade3.html');
+					break;
+					case 7:
+					hrefUrl('grade4.html');
+					break;
+					case 8:
+					hrefUrl('grade4.html');
+					break;
+					case 9:
+					hrefUrl('grade5.html');
+					break;
+					case 10:
+					hrefUrl('grade5.html');
+					break;
+					default:
+					return;
+				}	
 			}	
 		}
 })
