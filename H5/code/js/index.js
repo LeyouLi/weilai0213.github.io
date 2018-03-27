@@ -1,5 +1,16 @@
 $(function(){
-
+    function bodySize(){
+        var bodyWidth = document.body.scrollWidth;
+        var bodyHeight = document.body.scrollHeight;
+        $('body').css({
+            "width":bodyWidth + "px",
+            "height":bodyHeight + "px"
+        });
+    };
+    bodySize();
+    $(window).resize(function(){
+        bodySize()
+    });
 	function moveAnimate(){
 		$('.music_box').css('margin','0.5rem 0 0.5rem 92%');
 		$('.index_bg_box').css('marginLeft','0');

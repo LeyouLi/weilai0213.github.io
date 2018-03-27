@@ -19,6 +19,8 @@ html,body{
 	background-size: cover;
 	margin: 0.5rem 0 0.5rem -10%;
 	z-index: 1;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 @-webkit-keyframes music_box{
@@ -40,6 +42,8 @@ to {-webkit-transform: rotate(360deg);}
 	background-size: cover;
 	margin: 0.5rem 0 0.5rem -10%;
 	z-index: 1;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 
@@ -51,6 +55,8 @@ to {-webkit-transform: rotate(360deg);}
 	margin-left: -10rem;
 	position: relative;
 	overflow: hidden;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 .index_content_box{
@@ -59,6 +65,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 0;
 	left: 0rem;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
 .index_content_list{
@@ -73,12 +81,16 @@ to {-webkit-transform: rotate(360deg);}
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 	margin-left:-5rem;
+	-webkit-transition: all 1.2s;
+	-o-transition: all 1.2s;
 	transition: all 1.2s;
 }
 .people_box{
 	width: 5.79rem;
 	height: 5.79rem;
 	margin-left:-5rem;
+	-webkit-transition: all 1.2s;
+	-o-transition: all 1.2s;
 	transition: all 1.2s;
 }
 .title1_box{
@@ -86,6 +98,8 @@ to {-webkit-transform: rotate(360deg);}
 	height: 1.23rem;
 	margin-top: 0.5rem;
 	margin-left:-5rem;
+	-webkit-transition: all 1.7s;
+	-o-transition: all 1.7s;
 	transition: all 1.7s;
 }
 .title2_box{
@@ -93,6 +107,8 @@ to {-webkit-transform: rotate(360deg);}
 	height: 0.55rem;
 	margin-top: 0.5rem;
 	margin-left:-5rem;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
 	transition: all 2s;
 }
 .rule_title_box{
@@ -111,6 +127,8 @@ to {-webkit-transform: rotate(360deg);}
 	height: 1.43rem;
 	margin-top: 0.5rem; 
 	margin-left: -10rem;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
 	transition: all 2s;
 }
 .rule_box{

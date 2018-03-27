@@ -21,6 +21,8 @@ html,body{
 	top: 0.5rem;
 	right: 12rem;
 	z-index: 1;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 @-webkit-keyframes music_box{
@@ -44,6 +46,8 @@ to {-webkit-transform: rotate(360deg);}
 	top: 0.5rem;
 	right: 0.4rem;
 	z-index: 1;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 
@@ -54,6 +58,8 @@ to {-webkit-transform: rotate(360deg);}
 	top: 2rem;
 	left: -10rem;
 	overflow: hidden;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
 	transition: all 0.4s;
 }
 .user_name1_box{
@@ -62,6 +68,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 3rem;
 	left: -10rem;
+	-webkit-transition: all 0.6s;
+	-o-transition: all 0.6s;
 	transition: all 0.6s;
 }
 .user_img1_box{
@@ -70,6 +78,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 5.8rem;
 	left: -10rem;
+	-webkit-transition: all 0.8s;
+	-o-transition: all 0.8s;
 	transition: all 0.8s;
 }
 .Comment1_box{
@@ -78,6 +88,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 12.5rem;
 	left: -10rem;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 .Comment2_box{
@@ -86,6 +98,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 12.5rem;
 	left: -10rem;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 .Comment3_box{
@@ -94,6 +108,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 13rem;
 	left: -10rem;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 .Comment4_box{
@@ -102,6 +118,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 12.5rem;
 	left: -10rem;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 .Comment5_box{
@@ -110,6 +128,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 12.5rem;
 	left: -10rem;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 .Produced_box{
@@ -118,6 +138,8 @@ to {-webkit-transform: rotate(360deg);}
 	position: absolute;
 	top: 15.4rem;
 	left: -10rem;
+	-webkit-transition: all 1.2s;
+	-o-transition: all 1.2s;
 	transition: all 1.2s;
 }
 

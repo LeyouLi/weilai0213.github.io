@@ -135,25 +135,25 @@ $(function(){
 					hrefUrl('grade1.html');
 					break;
 					case 2:
-					hrefUrl('grade1.html');
+					hrefUrl('grade2.html');
 					break;
 					case 3:
 					hrefUrl('grade2.html');
 					break;
 					case 4:
-					hrefUrl('grade2.html');
+					hrefUrl('grade3.html');
 					break;
 					case 5:
 					hrefUrl('grade3.html');
 					break;
 					case 6:
-					hrefUrl('grade3.html');
+					hrefUrl('grade4.html');
 					break;
 					case 7:
 					hrefUrl('grade4.html');
 					break;
 					case 8:
-					hrefUrl('grade4.html');
+					hrefUrl('grade5.html');
 					break;
 					case 9:
 					hrefUrl('grade5.html');
