@@ -1,0 +1,317 @@
+body{
+	position: relative;
+}
+nav{
+	width: 10.8rem;
+	height: 1.2rem;
+	border-bottom: 1px solid #ccc;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1.2rem;
+	position: relative;
+	margin-bottom: 0.7rem;
+}
+nav img{
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.35rem;
+	left: 0.5rem;
+}
+
+
+.login_box{
+	width: 9.2rem;
+	height: auto;
+	margin: 0 auto;
+}
+.user_name{
+	width: 100%;
+	height: 1.36rem;
+	padding: 0 0.2rem ;
+	border-bottom: 1px solid #ccc;
+}
+.user_name .tel_number_box{
+	width: 2.2rem;
+	height: 1.36rem;
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #999;
+	line-height: 1.36rem;
+	position: relative;
+}
+.user_name .tel_number_box:after{
+	content: '';
+	width: 1px;
+	height: 0.66rem;
+	background: #999;
+	line-height: 1.36rem;
+	position: absolute;
+	right: 0rem;
+	top: 0.35rem;
+}
+.user_name input{
+	width: 5rem;
+	height: 1.2rem;
+	background: transparent;
+	font-size: 0.4rem;
+	margin-left: 0.25rem;
+	color: #000;
+	outline: none;
+	border: none;
+}
+.user_name input::placeholder{
+	color: #000;
+}
+
+
+.user_pwd{
+	width: 100%;
+	height: 1.36rem;
+	margin-top: 0.6rem;
+	padding: 0 0.2rem ;
+	border-bottom: 1px solid #ccc;
+}
+.user_pwd span:first-child{
+	width: 2.2rem;
+	height: 1.36rem;
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #999;
+	line-height: 1.36rem;
+	position: relative;
+}
+.user_pwd span:first-child:after{
+	content: '';
+	width: 1px;
+	height: 0.66rem;
+	background: #999;
+	line-height: 1.36rem;
+	position: absolute;
+	right: 0rem;
+	top: 0.35rem;
+}
+.user_pwd span:last-child{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url('../images/hide_pwd2.png') no-repeat;
+	background-size: cover;
+	margin: 0.4rem 0.5rem 0 0;
+	display: inline-block;
+	float: right;
+}
+.pwd_show_btn{
+	background: url('../images/show_pwd.png') no-repeat!important;
+	background-size: cover!important;
+}
+.user_pwd input{
+	width: 4.5rem;
+	height: 1.2rem;
+	background: transparent;
+	font-size: 0.4rem;
+	margin-left: 0.25rem;
+	color: #000;
+	outline: none;
+	border: none;
+}
+.user_pwd input::placeholder{
+	color: #000;
+}
+
+.user_vcode{
+	width: 100%;
+	height: 1.36rem;
+	margin-top: 0.6rem;
+	padding: 0 0.2rem ;
+	border-bottom: 1px solid #ccc;
+}
+.user_vcode span{
+	width: 2.2rem;
+	height: 1.36rem;
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #999;
+	line-height: 1.36rem;
+	position: relative;
+}
+.user_vcode span:after{
+	content: '';
+	width: 1px;
+	height: 0.66rem;
+	background: #999;
+	line-height: 1.36rem;
+	position: absolute;
+	right: 0rem;
+	top: 0.35rem;
+}
+.user_vcode img{
+	width: 2rem;
+	height: 1rem;
+	margin: 0.2rem 0rem 0 0;
+	display: inline-block;
+	float: right;
+}
+.user_vcode input{
+	width: 2.5rem;
+	height: 1.2rem;
+	background: transparent;
+	font-size: 0.4rem;
+	margin-left: 0.25rem;
+	color: #000;
+	outline: none;
+	border: none;
+}
+.user_vcode input::placeholder{
+	color: #000;
+}
+
+
+.phone_vcode{
+	width: 100%;
+	height: 1.36rem;
+	margin-top: 0.6rem;
+	padding: 0 0.2rem ;
+	border-bottom: 1px solid #ccc;
+}
+.phone_vcode span:first-child{
+	width: 2.2rem;
+	height: 1.36rem;
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #999;
+	line-height: 1.36rem;
+	position: relative;
+}
+.phone_vcode span:first-child:after{
+	content: '';
+	width: 1px;
+	height: 0.66rem;
+	background: #999;
+	line-height: 1.36rem;
+	position: absolute;
+	right: 0rem;
+	top: 0.35rem;
+}
+.phone_vcode img{
+	width: 2rem;
+	height: 1rem;
+	margin: 0.2rem 0.5rem 0 0;
+	display: inline-block;
+	float: right;
+}
+.phone_vcode input:nth-child(2){
+	width: 3.5rem;
+	height: 1.2rem;
+	background: transparent;
+	font-size: 0.4rem;
+	margin-left: 0.25rem;
+	color: #000;
+	outline: none;
+	border: none;
+}
+.phone_vcode input:nth-child(2)::placeholder{
+	color: #000;
+}
+.phone_vcode input:last-child{
+	width: 2.5rem;
+	background: transparent;
+	font-size: 0.4rem;
+	padding: 0.1rem;
+	margin-top: 0.3rem;
+	float: right;
+	border: 1px solid #999;
+	border-radius: 0.1rem;
+	color: #999;
+	outline: none;
+}
+.phone_vcode input:last-child::placeholder{
+	color: #000;
+}
+
+.mask_register_box{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 6;
+	display: none;
+}
+.user_protocol_box{
+	width: 9rem;
+	height: 15rem;
+	background: #fff;
+	box-shadow: 0 0 10px #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 9;
+	display: none;
+}
+.protocol_title{
+	width: 100%;
+	height: 1rem;
+	padding: 0 0.3rem;
+	margin-bottom: 0.3rem;
+	border-bottom: 1px solid #999;
+}
+.protocol_title span{
+	font-size: 0.4rem;
+	line-height: 1rem;
+	color: #000;
+}
+.protocol_title img{
+	width: 0.6rem;
+	height: 0.6rem;
+	float: right;
+	margin-top: 0.2rem;
+}
+.user_protocol_box p{
+	height: 13.5rem;
+	width: 8rem;
+	margin: 0 auto;
+	color: #000;
+	padding: 0.5rem 0;
+	font-size: 0.36rem;
+	overflow-y: auto;
+}
+
+
+
+.forget_box{
+	width: 9.2rem;
+	margin: 0.3rem auto;
+	overflow: hidden;
+}
+.forget_box span a{
+	color: #333;
+}
+.forget_box span:first-child{
+	font-size: 0.3rem;
+	float: left;
+}
+.forget_box span:first-child p{
+	float: right;
+	color: #fdc723;
+}
+.forget_box span:last-child{
+	font-size: 0.3rem;
+	float: right;
+}
+.forget_box span:last-child a span{
+	color: #fdc723;
+}
+
+.login_btn{
+	width: 9.2rem;
+	height: 1.2rem;
+	border-radius: 0.15rem;
+	background: url('../images/exit_btn.png') no-repeat;
+	background-size: cover;
+	margin: 1.2rem auto 0 auto;
+	font-size: 0.44rem;
+	line-height: 1.2rem;
+	text-align: center;
+	color: #333;
+}

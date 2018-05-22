@@ -1,0 +1,359 @@
+body{
+    position: relative;
+}
+.header_box{
+    width: 10.8rem;
+    height: 4.5rem;
+    background: url('../images/bg_center.png')no-repeat;
+    background-size: cover;
+    padding-top: 1.86rem;
+    padding-left: 1.2rem;
+}
+.user_content{
+    overflow: hidden;
+}
+.user_content img{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 0.78rem;
+    display: inline-block;
+    float: left;
+}
+.user_name{
+    float: left;
+}
+.user_name li:first-child{
+    font-size: 0.44rem;
+    color: #ffc106;
+    margin:0.1rem 0 0.4rem 0;
+}
+.user_name li:first-child span{
+    font-size: 0.44rem;
+    color: #fff;
+}
+.user_name li:last-child{
+    font-size: 0.36rem;
+    color: #999;
+}
+
+.recharge_box{
+    width: 10.8rem;
+    height: 4.3rem;
+    margin: 0.84rem 0 1.4rem 0;
+    box-shadow: 0 0 20px #eaa56f6b;
+}
+.recharge_box li{
+    height: 1.4rem;
+    width: 8.4rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    line-height: 1.4rem;
+    padding: 0 0.2rem;
+}
+.recharge_box li:last-child{
+    border-bottom: none;
+}
+.recharge_box li span:first-child{
+    width: 45%;
+    font-size: 0.36rem;
+    color: #999;
+    float: left;
+}
+.recharge_box li span:nth-child(2){
+    width: 33%;
+    font-size: 0.4rem;
+    color: #333;
+    float: left;
+}
+.recharge_box li button{
+    height: 0.6rem;
+    width: 1.4rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    border: 1px solid #333;
+    margin-top: 0.4rem;
+    outline: none;
+    float: right;
+}
+
+
+.mask_box{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500%;
+    background:rgba(0,0,0,0.5);
+    z-index: 6;
+    display: none;
+}
+/*eth充值*/
+.eth_change_into{
+    width: 8rem;
+    height: 6rem;
+    background: #fff;
+    border-radius:0.1rem;
+    box-shadow: 0 0 10px #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    display: none;
+}
+.eth_into_title{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0.3rem;
+}
+.eth_change_into textarea{
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    display: inherit;
+    color: #999;
+    overflow-y: auto;
+    font-size: 0.36rem;
+    margin: 0.6rem auto;
+    resize: none;
+}
+.eth_into_title span{
+    display: block;
+    float: left;
+    font-size: 0.4rem;
+    color: #333;
+    line-height: 1rem;
+}
+.eth_into_title img{
+    width: 0.48rem;
+    height: 0.48rem;
+    float: right;
+    margin-top: 0.25rem;
+}
+.eth_change_into .btn{
+    width: 3.6rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    color: #333;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.5rem;
+    border-radius: 0.1rem;
+    background:url('../images/pic_into_btn.png') no-repeat;
+    background-size: cover;
+}
+
+/*bst充值*/
+.bst_change_into{
+    width: 8rem;
+    height: 6rem;
+    background: #fff;
+    border-radius:0.1rem;
+    box-shadow: 0 0 10px #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    display: none;
+}
+.bst_into_title{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0.3rem;
+}
+.bst_change_into textarea{
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    display: inherit;
+    color: #999;
+    overflow-y: auto;
+    font-size: 0.36rem;
+    margin: 0.6rem auto;
+    resize: none;
+}
+.bst_into_title span{
+    display: block;
+    float: left;
+    font-size: 0.4rem;
+    color: #333;
+    line-height: 1rem;
+}
+.bst_into_title img{
+    width: 0.48rem;
+    height: 0.48rem;
+    float: right;
+    margin-top: 0.25rem;
+}
+.bst_change_into .btn{
+    width: 3.6rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    color: #333;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.5rem;
+    border-radius: 0.1rem;
+    background:url('../images/pic_into_btn.png') no-repeat;
+    background-size: cover;
+}
+
+/*转账*/
+.spg_change_into{
+    width: 8rem;
+    height: 6rem;
+    background: #fff;
+    border-radius:0.1rem;
+    box-shadow: 0 0 10px #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    display: none;
+}
+.into_title{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0.3rem;
+}
+.into_title span{
+    display: block;
+    float: left;
+    font-size: 0.4rem;
+    color: #333;
+    line-height: 1rem;
+}
+.into_title img{
+    width: 0.48rem;
+    height: 0.48rem;
+    float: right;
+    margin-top: 0.25rem;
+}
+.user_id{
+    width: 5rem;
+    height: 0.8rem;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+.user_id span{
+    font-size: 0.36rem;
+    color: #999;
+    line-height: 0.8rem;
+}
+.user_id input{
+    width: 4rem;
+    height: 0.8rem;
+    float: right;
+    background: transparent;
+    border:1px solid #999;
+    outline: none;
+    border-radius: 0.1rem;
+    padding: 0 0.2rem;
+}
+.into_btn{
+    width: 3.6rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    color: #333;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.5rem;
+    border-radius: 0.1rem;
+    background:url('../images/pic_into_btn.png') no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+.security_box{
+    width: 10.8rem;
+    height: 1rem;
+    padding: 0 1.2rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 1rem;
+}
+.security_box a{
+    width: 10.8rem;
+    height: 1rem;
+    display: table-cell;
+}
+.security_box a p{
+    font-size: 0.44rem;
+    color: #333;
+    float: left;
+}
+.security_box a img{
+    width: 0.2rem;
+    height: 0.38rem;
+    float: right;
+    margin-top: 0.35rem
+}
+
+.exit_btn{
+    width: 9.2rem;
+    height: 1.3rem;
+    margin: 2.1rem auto;
+    color: #333;
+    line-height: 1.3rem;
+    text-align: center;
+    font-size: 0.5rem;
+    border-radius: 0.1rem;
+    background:url('../images/exit_btn.png') no-repeat;
+    background-size: cover;
+}
+
+footer{
+    width: 10.8rem;
+    height: 1.48rem;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+}
+footer span{
+    float: left;
+    width: 50%;
+    padding-top: 0.2rem;
+    position: relative;
+}
+footer span a{
+    color: #333;
+    width: 50%;
+}
+footer span:first-child:after{
+   content: "";
+   width: 2px;
+   height: 1rem;
+   background: #c8a165;
+   position: absolute;
+   right: 0;
+   top: 0.25rem;
+}
+footer span a img{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    text-align: center;
+}
+footer span a p{
+    margin-top: 0.1rem;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.selected_self{
+    color: #FFC518;
+}

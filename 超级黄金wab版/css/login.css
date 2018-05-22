@@ -1,0 +1,194 @@
+body{
+	background: url('../images/login_bg.png') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.logo_box{
+	width: 2.6rem;
+	height: 2.6rem;
+	background: url('../images/spg_logo.png') no-repeat;
+	background-size: cover;
+	margin: 2.8rem auto;
+}
+
+
+.login_box{
+	width: 9.2rem;
+	height: auto;
+	margin: 0 auto;
+}
+.user_name{
+	width: 100%;
+	height: 1.36rem;
+	padding: 0 0.2rem ;
+	background: rgba(0,0,0,0.3);
+	border-radius: 0.1rem;
+	border: 1px solid #B07B0E;
+}
+.user_name .tel_number_box{
+	width: 2.2rem;
+	height: 1.36rem;
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #fff;
+	line-height: 1.36rem;
+	position: relative;
+}
+.user_name .tel_number_box:after{
+	content: '';
+	width: 1px;
+	height: 0.66rem;
+	background: #fff;
+	line-height: 1.36rem;
+	position: absolute;
+	right: 0rem;
+	top: 0.35rem;
+}
+.user_name input{
+	width: 5rem;
+	height: 1.2rem;
+	background: transparent;
+	font-size: 0.4rem;
+	margin-left: 0.5rem;
+	color: #fff;
+	outline: none;
+	border: none;
+}
+.user_name input::placeholder{
+	color: #fff;
+}
+
+
+.user_pwd{
+	width: 100%;
+	height: 1.36rem;
+	margin-top: 0.6rem;
+	padding: 0 0.2rem ;
+	background: rgba(0,0,0,0.6);
+	border-radius: 0.1rem;
+	border: 1px solid #B07B0E;
+}
+.user_pwd span:first-child{
+	width: 2.2rem;
+	height: 1.36rem;
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #fff;
+	line-height: 1.36rem;
+	position: relative;
+}
+.user_pwd span:first-child:after{
+	content: '';
+	width: 1px;
+	height: 0.66rem;
+	background: #fff;
+	line-height: 1.36rem;
+	position: absolute;
+	right: 0rem;
+	top: 0.35rem;
+}
+.user_pwd span:last-child{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url('../images/hide_pwd.png') no-repeat;
+	background-size: cover;
+	margin: 0.4rem 0.5rem 0 0;
+	display: inline-block;
+	float: right;
+}
+.pwd_show_btn{
+	background: url('../images/show_pwd.png') no-repeat!important;
+	background-size: cover!important;
+}
+.user_pwd input{
+	width: 4.5rem;
+	height: 1.2rem;
+	background: transparent;
+	font-size: 0.4rem;
+	margin-left: 0.5rem;
+	color: #fff;
+	outline: none;
+	border: none;
+}
+.user_pwd input::placeholder{
+	color: #fff;
+}
+
+.user_vcode{
+	width: 100%;
+	height: 1.36rem;
+	margin-top: 0.6rem;
+	padding: 0 0.2rem ;
+	background: rgba(0,0,0,0.6);
+	border-radius: 0.1rem;
+	border: 1px solid #B07B0E;
+}
+.user_vcode span{
+	width: 2.2rem;
+	height: 1.36rem;
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #fff;
+	line-height: 1.36rem;
+	position: relative;
+}
+.user_vcode span:after{
+	content: '';
+	width: 1px;
+	height: 0.66rem;
+	background: #fff;
+	line-height: 1.36rem;
+	position: absolute;
+	right: 0rem;
+	top: 0.35rem;
+}
+.user_vcode img{
+	width: 2rem;
+	height: 1rem;
+	margin: 0.2rem 0.2rem 0 0;
+	display: inline-block;
+	float: right;
+}
+.user_vcode input{
+	width: 2.5rem;
+	height: 1.2rem;
+	background: transparent;
+	font-size: 0.4rem;
+	margin-left: 0.5rem;
+	color: #fff;
+	outline: none;
+	border: none;
+}
+.user_vcode input::placeholder{
+	color: #fff;
+}
+
+.forget_box{
+	width: 9.2rem;
+	margin: 0.3rem auto;
+	overflow: hidden;
+}
+.forget_box span a{
+	color: #333;
+}
+.forget_box span:first-child{
+	font-size: 0.3rem;
+	float: left;
+}
+.forget_box span:last-child{
+	font-size: 0.3rem;
+	float: right;
+}
+
+.login_btn{
+	width: 9.2rem;
+	height: 1.2rem;
+	border-radius: 0.15rem;
+	background: url('../images/exit_btn.png') no-repeat;
+	background-size: cover;
+	margin: 1.2rem auto 0 auto;
+	font-size: 0.44rem;
+	line-height: 1.2rem;
+	text-align: center;
+	color: #333;
+}
