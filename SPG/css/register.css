@@ -216,7 +216,7 @@ body{
 	background:  url('../images/icon-check.png') no-repeat;
 	background-size: cover;
 	position: absolute;
-	top: 0.04rem;
+	/*top: 0.04rem;*/
 	left: 0.1rem;
 }
 .regs_change_box li:last-child{
