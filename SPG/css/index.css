@@ -1,0 +1,163 @@
+body{
+  background: #232323;
+}
+.banner{
+  width: 10.8rem;
+  height: 5.5rem;
+  position: relative;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+}
+
+.coin_price{
+  width: 9.38rem;
+  height: auto;
+  margin: 0.64rem auto;
+}
+.coin_price li{
+  width: 9.38rem;
+  height: 0.88rem;
+  background: #393838;
+  margin-bottom: 0.2rem;
+}
+.coin_price li span:first-child{
+  width: 3rem;
+  height: 0.88rem;
+  float: left;
+  text-align: center;
+  line-height: 0.88rem;
+  font-size: 0.26rem;
+  color: #fff;
+  display: block;
+  position: relative;
+}
+.coin_price li span:first-child:before{
+  content: '';
+  width: 0.25rem;
+  height: 0.25rem;
+  background: url('../images/icon-check.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0.31rem;
+  left: 0.8rem;
+}
+.coin_price li span:nth-child(2){
+  height: 0.88rem;
+  float: right;
+  padding-right: 0.5rem;
+  text-align: center;
+  line-height: 0.88rem;
+  font-size: 0.26rem;
+  color: #fff;
+  display: block;
+}
+
+
+.trade_spg_box{
+  width: 9.38rem;
+  height: 5.2rem;
+  margin: 0.4rem auto;
+  border: 1px solid #414141;
+}
+.trade_content li:last-child{
+  margin-bottom: 2rem;
+}
+.trade_title{
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  padding-left: 0.2rem;
+  font-size: 0.4rem;
+  color: #E6B900;
+  background: #414141;
+  
+}
+.trade_item{
+  width: 2.54rem;
+  height: auto;
+  margin: 0.5rem 0 0 0.5rem;
+  float: left;
+}
+.trade_item img{
+  width: 2.54rem;
+  height: 2.54rem;
+  margin-bottom: 0.2rem;
+}
+.trade_item p{
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+}
+.trade_spg_box button{
+  width: 2rem;
+  height: 0.76rem;
+  background: #E6B900;
+  color: #fff;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  float: right;
+  margin-right: 0.94rem;
+  margin-top: 2.9rem;
+}
+
+
+footer{
+  width: 100%;
+  height: 1.2rem;
+  background: #232323;
+  position: fixed;
+  bottom:0;
+}
+footer ul{
+  width: 100%;
+  height: 100%;
+}
+footer ul li{
+  width: 49%;
+  height: 100%;
+  background: #414141;
+}
+footer ul li:first-child{
+  float: left;
+}
+footer ul li:first-child p{
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: 0.2rem auto;
+  background: url("../images/icon_home2.png") no-repeat;
+  background-size: cover;
+}
+footer ul li:last-child{
+  float: right;
+}
+footer ul li:last-child p{
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: 0.2rem auto;
+  background: url("../images/icon_center.png") no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登陆-超级黄金</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit" />
+	<link rel="icon" href="bitbug_favicon.ico" type="image/x-icon"/>
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+	<div class="logo_box"></div>
+	<div class="login_box">
+		<div class='user_name'>
+			<span>手机号码</span>
+			<input type="text" placeholder="请输入手机号码" maxlength="11">
+		</div>
+
+		<div class='user_pwd'>
+			<span>密码</span>
+			<input type="password" placeholder="请输入密码" id='demo_input'>
+			<span class='show_btn'></span>
+		</div>
+
+		<button onclick="window.location.href='index.html';">登录</button>
+
+	</div>
+
+	<ul class='forget_pwd'>
+		<li><a href="./forgetPassword.html">忘记密码?</a></li>
+		<li><a href="./register.html">去注册</a></li>
+	</ul>
+
+
+	<script src="./js/jquery-1.8.3.min.js"></script>
+	<script src='./js/login.js'></script>
+</body>
+</html>

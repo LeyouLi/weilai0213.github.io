@@ -1,0 +1,45 @@
+p,h1,h2,h3,h4,h5,h6,pre,input,dd,ul,dt,dl,ol,figure,body,input,article{
+    margin: 0;padding: 0;list-style: none;border: none;}
+img{border: none;display: block;margin: 0;padding: 0;}
+input,a{text-decoration: none;}
+*{box-sizing: border-box;}
+a:active{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+b, strong {
+    font-weight: bold;
+}
+div {
+    display: block;
+}
+body{
+	display: block;
+    font-size: 14px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+html, body {
+    width: 100%;
+}
+
+@media screen and (min-width: 320px){
+    html{ font-size: 29.63px}
+}
+@media screen and (min-width: 360px){
+    html{ font-size: 33.33px}
+}
+@media screen and (min-width:375px){
+    html{ font-size: 34.72px}
+}
+@media screen and (min-width:412px){
+    html{font-size: 38.148px;}
+}
+@media screen and (min-width:414px){
+    html{font-size: 38.333333px;}
+}
+@media screen and (min-width:768px){
+    html{font-size: 71.11111px;}
+}
+@media screen and (min-width:1024px){
+    html{font-size: 94.815px;}
+}
