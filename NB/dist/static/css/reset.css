@@ -1,0 +1,35 @@
+/**********
+ * reset
+ *********/
+ * {box-sizing: border-box; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+ body,
+ dl, dt, dd, ul, ol, li,
+ h1, h2, h3, h4, h5, h6,
+ pre, code, form, fieldset, legend, input, textarea,
+ p, blockquote, th, td, hr, button,
+ article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+   margin: 0;
+   padding: 0;
+   border: 0;
+ }
+ /* 默认不要下划线 */
+a {text-decoration: none;}
+a:link {color: #000} /*未被访问的链接*/
+a:visited {color: #000} /*已被访问过的链接*/
+a:hover {color: #000} /*鼠标悬浮在上的链接*/
+a:active {color: #000} /*鼠标点中激活链接*/
+ /* 按钮文本不可选 */
+ button {user-select: none;}
+ img {vertical-align: middle;}
+ /* 加载不出来的图片不要显示灰色边框 */
+ img:not([src]),img[src=""] {opacity: 0;}
+ ul, ol {list-style: none;}
+ table {border-collapse: collapse; border-spacing: 0;}
+ input, select, button, textarea {font-size: 100%; font: inherit;}
+ html, body {height: 100%; overflow-x: hidden;}
+ body {font-size: 12px;font-family: "黑体";background-color: #fff;}
+ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: white!important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
